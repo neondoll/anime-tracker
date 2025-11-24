@@ -137,6 +137,19 @@ export const animeList: Anime[] = [
     description: "Гидо, юная девушка, проклятая ведьмой, вынуждена хранить страшный секрет. Ашаф же — высокий вежливый мужчина с гробом на спине, и его тайны пока не раскрыты. Вместе они странствуют по свету, в поисках отмщения. Зачастую всё не то, чем кажется, и жизнь героев может оборваться в любой момент. Удастся ли им достичь своей цели?",
   },
   {
+    id: "vechnost-jugurje",
+    title: "Вечность Югурэ",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/10853012/a1d9367b-c45b-4352-b239-ca1bbf7fd5b8/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Фантастика", "Мелодрама"],
+    description: "Акира ищет свою невесту в мире постапокалипсиса. Аниме режиссёра «Невероятных приключений ДжоДжо»",
+  },
+  {
     id: "vorona-imperatorskogo-garema",
     title: "Ворона императорского гарема",
     image: "https://animego.me/upload/anime/images/633348c8214cf539813322.jpg",
@@ -152,6 +165,19 @@ export const animeList: Anime[] = [
       "Так и двор нынешнего императора Косюна не остался без интриг и тайн. В его гареме среди множества жен выделяется одна таинственная супруга. Некоторые описывают ее как женщину с внешностью старухи, иные – как прекрасную юную девушку. Однако никто не смог дать полного и единственно правильного описания загадочной наложницы. Только одно известно про нее на 100 процентов: она способна колдовать и своей магией может не только отыскать любую потерянную вещь, но и наложить страшнейшее по своему эффекту проклятие.\n" +
       "\n" +
       "Однажды император Косюн решает навестить свою окутанную тайнами супругу, чтоб попросить ее о помощи. И вскоре это приведет к событиям, о которых он даже не подозревал: эта кратковременная встреча перевернет с ног на голову жизнь всего императорского дворца.",
+  },
+  {
+    id: "gachiakuta",
+    title: "Гачиакута",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/10809116/978904f6-0f44-4a6f-8081-84eab2a8252c/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 24,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Фэнтези", "Боевик"],
+    description: "Невинно осужденный подросток пытается выжить среди мусорных монстров. Аниме сценариста «Дандадана»",
   },
   {
     id: "genialnyy-celitel-kotoryy-iscelyal-v-odno-mgnovenie-no-byl-izgnan-kak-bespoleznyy-teper-naslazhdaetsya-zhiznyu-v-kachestve-temnogo-celitelya",
@@ -181,6 +207,19 @@ export const animeList: Anime[] = [
     genres: ["Повседневность", "Сэйнэн"],
   },
   {
+    id: "domashniy-repetitor-gertsogini",
+    title: "Домашний репетитор герцогини",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/bfc4dba4-2e88-4695-b293-b2f3da8b33d6/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Фэнтези", "Мелодрама"],
+    description: "Маг без лицензии становится частным учителем колдовства для дочки аристократа. Весёлое и романтичное аниме",
+  },
+  {
     id: "drakon-radzha",
     title: "Дракон Раджа",
     image: "https://v1.animego.bet/uploads/posts/2025-05/drakon-radzha.webp",
@@ -208,6 +247,19 @@ export const animeList: Anime[] = [
       crocodile: { watchedEpisodes: 0, status: "not_interested" },
     },
     genres: ["Детектив", "Исторический", "Психологическое", "Сверхъестественное", "Сёнэн", "Школа"],
+  },
+  {
+    id: "zapreschennyy-krot",
+    title: "Запрещенный Крот",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/3ff2db55-27e5-46d6-a846-e5642b899f19/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Детектив", "Комедия", "Фэнтези"],
+    description: "После встречи с эксцентричным отшельником люди получают связь с миром магии. Сериал по одноимённой манге",
   },
   {
     id: "inuyasiki",
@@ -393,6 +445,19 @@ export const animeList: Anime[] = [
       "Общий комедийный тон тайтла не мешает зрителю почувствовать серьезность и неоднозначность проблем в период взросления. Хорошо раскрыты тема одиночества и поиск смысла жизни. Дали и Миги обладают развитым интеллектом, что помогает успешно решать сложные детективные задачи. Первые серии выходят уже в начале октября.",
   },
   {
+    id: "moj-otec-geroj-moja-mat-duh-a-ja-pererozhdennaja-ih-docherju",
+    title: "Мой отец — герой, моя мать — дух, а я переродилась их дочерью",
+    image: "https://kinopoisk-ru.clstorage.net/pQ1w55173/4139b9eM/YjlB7JPX6VuBmOvjPOPvFBVRJJ2fCpSF0HVNpX5Mqjizcf7LfzbhGYjB5I2BSQGRmlqjAMy1RaJ1nLssaHfzKMd9Ia2Gw11vJD3qh-mGyvFUheUofKgiZ7IH-4atn5xfRyUKuhoDBM2M4QEZtPjltdw8xxRdpkHxgoiqeWwyAeqDewMfMoe4DPA6SGbv8Y2H15GCvQw5MyUg1HtGnly_TVdXOTxq8rTNzMFSmJVfRITOXnE03UUjwJPruSueU_B4gxmwrqKW-y7BiFgWjhKM1cYgYB78OVDk8YaaF99NrN3WpIsd6mL0vA3wowkHLuRU_F2jlz-kU8JCG8p5T4HhCHDoUY9DVcv-84vr11xgnHYVQnNdP8iDFAAUWDW8jw9fBAf77XvClEwNcbCrhA6kBF0fc-efhUIhcDi5Gb0RUtjwaADOQeWoLAAIiKSds42XZ4Gx_4xqcSbDJSmUL07d_VYWaZ4aMRTsbHEBeZc_V9ePXkH23bWxoxPa6fuN4lGIYKiBH4OVauzBGihHjVMsd1RwcV9dqpK0AbbrVb_szrzUNmluecCGTm8wgzmWfWWE7W2AtR-VAtJQKrmrLsGR-YLq4K6AZEodIkoKp-xwrMQnMNIdb-qgxwLGGSfsPw6e9yZY_KpilI2vwzPqB32GR6_eIbeOZUBicOn72swRk-rzetFvAXdZDkA6iMXOMQ2HNfLTfWz5oDeRhrr178-trLY0KW56QKRdnMMxaGSMJmXNHCC0PfYy0QO7STj_0vGKs2uhH1Dlu81DO8jHb5KPl9RTIQ7f-4A2omcaR14vTD0WxXpuGCEXHiyh4BnlPYQWHv8hVF5HctARyyj77tNjiKDZsN8yVCg_EXk5RM9jv8R2MBL-LMjBFrOlCGYNvK1v9LTo77mABgzfIpNo9A11tk7Pk5UeRGDAYBm4S4xh0emSerPMcRRpPaG5uJTec1yUlHCST1x44kfjFYp2nq68rOUkmy6486VNL0FTCmS9N-TPniP2TLWS0QPYiGs8I8L5o4pw7JBUKc7BGuq07fBd5hSj0e2_uYMlUmYp5R3_T9-Et1k_WiL0HS9A05pnH4c0rZ-SVF1HINDjyZlZLVIRCkCpI-8h5EtO4XjJxU_z36YEMcBdzirABSI2S6f9jOx9RPQoj6vS1S8tsGG6By7G1fxsAffOhTDTQLtqKe0xoHqDuXHt8vZ5zOGY6ZdNstxWRWIBDw35ARTQRktUH-3MjRT36K-4gTdMLJGx6dZs1wQebDPHvVZRsWLbyhm8UWIrozmyzJBUWX1RWcikrWMN5kQykUxO-7JX0Bd6106vX78FV-u_aHMXT2zgsXmELLTV7WwRVi33kEIwW5mJLBNCGQBrIs5ApGjOMDoqRe2RXJYnYoBNzTkDFRFWKeXNb0xt1TRL7Wvipv4dIXF4dC1HFm9ec-QuJkKzgZiLi73CM5ig-HOfcySIzdPaOmS9wa3FxXIB3l17cXXxtxuHzB7_jbQ1KW2ZofTv3oLy6lT8lFZtb-NVz4WgwIJ56Emfw4HoMAmBvINkGj2DGOo2z_Fd1VWB8p8PKMKG4QTJpp9_Pg4l9ts86TGnL76jEarU_sSHnv4ihGwl0kCgO1tZ3CPQejI6wpzzB6ovQ6mYNe2CzQXH8jDdjRngZQM0-TXfb7-NRQZJ_XoAlOxvwbIbhXzWRAyekfdMtMATsrlIaewxYcmCybOuwEQoDBJI6iW_YIy2p6ICPz3qsCSDNRpGL4_-XCUVap3KEIevTZDwClauJce-bmGHboZx0GE4Kyq8Q4PZwolDD2Pm2A9SystXrBEPVWWDsizdG6N0k0R5l-6Orf9WZkq-67CHL45zsAkEzBT1vu1SZ5yUMqMSWPpbrTOyetFacU9hpFsNgNqapI4SXFVHocNvr5mR9tNFGTe_v2yNNtZZHFgRBh1tgOE5ll2WZ7xvYQVPVmOhYoq6OF5gcguCOFFfs4RoPaEJ-aVO4ez0FiEBP-9rYAdQlajlHBy8voR26exZ0XSd3uJxWnb_pPUPf7HELnTDwoGrqAhcAmMbAqgBjNLGGn7hiMpE7vFdpSZCkJ8dilDnkFYYNA6sjg_W9umuO_K2bv9BMajWX3ZnDf1htw1XshBCGphKj_BCGaJbgd2jJgq-U4g4VH1TT-cH4DIuT_uQ1SJkKHddbTwcBjTIv5iiNXz90TP7Fg1lhu0dYoUM5jBwQMvqeQ3ykTjgaDF8UsWpL9Ob-cTPQ41mJVJh__4qcMUwlxuVT93O7NY2Ws4rs_StHWFh-CUclIWdvnFFnaYjgRGZGxnM0lGYQmuBn2GlyV3xGrmFHbMPVmWD0r9v-YFHUuToB3xvz612lPku6ILW7-5zQKo3Hsf07E5QV4xGEYGCaZvJv3LTqLEakq5QRPlcQ6r4tozyjHTkAvAN3fvh54NlS0b_Xf7v5ca6jHqixn9fYvPpFx1kdx0_UJQPlYGi0TnZ659icfrQqtDMkXR5T1O6-cbNoO729WGDfZ7b4DTihXmXX6z_3yRkm-wI4zZNTnFDCqS_poTNHEI37EZgAGAay_kewuFLw6pRrIE1ukxSWfiXj7FMVtVAIF3cC4Dnk2dpJXyNfjz39Pv_WvDG_4zisfjEjjW3_d2ChM4Hk6CA2ZmpbnJDycDZsF2C9JoNQBrKla0DbxbHwAKOPwsCpKNmuif93U-9RRcZ3qhB5b8e8FDZ5KyG1B6twyVP9WCg4fnbGu-ho1jBKnKvAWSbLcHaC5Re4Q-GJVJD7z0o83fSt5skLU797dS3Omwo8TTPHTKB2rXuZgbtjeHE_HZSctAK2wtfM1J7wgrw_RBl6F_xOniGvmF9xXYi4uwMKnEG0FUrJSx8jLwkhjkOuAEmjP9zchunTIek_f1QBW3FEEEy2_spPmBxKeMLYs0xJ6rPUTm4ZV0C3uV0Y_H9TFpCZ8Jm-8csPWxOlJXZLCogFI49opHJpp6WdF88sYXeJtJRQSmp0",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Фэнтези", "Комедия"],
+    description: "Девочка защищает свою семью, используя знания и опыт из прошлой жизни. Аниме в декорациях Средневековья",
+  },
+  {
     id: "monolog-farmacevta",
     title: "Монолог фармацевта",
     image: "https://animego.me/upload/anime/images/650c4cfea7794468427702.jpg",
@@ -548,6 +613,32 @@ export const animeList: Anime[] = [
     genres: ["Приключения", "Фэнтези", "Экшен"],
   },
   {
+    id: "pridvornyy-mag-polzovavshiysya-lish-magiyey-podderzhki-potomu-chto-yego-soyuzniki-slishkom-slaby-reshil-stat-silneyshim-posle-izgnaniya",
+    title: "Придворный маг, пользовавшийся лишь магией поддержки, потому что его союзники слишком слабы, решил стать сильнейшим после изгнания",
+    image: "https://kinopoisk-ru.clstorage.net/pQ1w55173/4139b9eM/YjlB7JPX6VuBmOvjPOPvFBVRJJ2fCpSF0HVNpX5Mqjizcf7LfzbhGYjB5I2BSQGRml8mQMzgULdQmc58bWfG7fIIBMiD9v0KNGjPx4mGyvFUheUofKgiZ7IH-4atn5xfRyUKuhoDBM2M4QEZtPjltdw8xxRdpkHxgoiqeWwyAeqDewMfMoe4DPA6SGbv8Y2H15GCvQw5MyUg1HtGnly_TVdXOTxq8rTNzMFSmJVfRITOXnE03UUjwJPruSueU_B4gxmwrqKW-y7BiFgWjhKM1cYgYB78OVDk8YaaF99NrN3WpIsd6mL0vA3wowkHLuRU_F2jlz-kU8JCG8p5T4HhCHDoUY9DVcv-84vr11xgnHYVQnNdP8iDFAAUWDW8jw9fBAf77XvClEwNcbCrhA6kBF0fc-efhUIhcDi5Gb0RUtjwaADOQeWoLAAIiKSds42XZ4Gx_4xqcSbDJSmUL07d_VYWaZ4aMRTsbHEBeZc_V9ePXkH23bWxoxPa6fuN4lGIYKiBH4OVauzBGihHjVMsd1RwcV9dqpK0AbbrVb_szrzUNmluecCGTm8wgzmWfWWE7W2AtR-VAtJQKrmrLsGR-YLq4K6AZEodIkoKp-xwrMQnMNIdb-qgxwLGGSfsPw6e9yZY_KpilI2vwzPqB32GR6_eIbeOZUBicOn72swRk-rzetFvAXdZDkA6iMXOMQ2HNfLTfWz5oDeRhrr178-trLY0KW56QKRdnMMxaGSMJmXNHCC0PfYy0QO7STj_0vGKs2uhH1Dlu81DO8jHb5KPl9RTIQ7f-4A2omcaR14vTD0WxXpuGCEXHiyh4BnlPYQWHv8hVF5HctARyyj77tNjiKDZsN8yVCg_EXk5RM9jv8R2MBL-LMjBFrOlCGYNvK1v9LTo77mABgzfIpNo9A11tk7Pk5UeRGDAYBm4S4xh0emSerPMcRRpPaG5uJTec1yUlHCST1x44kfjFYp2nq68rOUkmy6486VNL0FTCmS9N-TPniP2TLWS0QPYiGs8I8L5o4pw7JBUKc7BGuq07fBd5hSj0e2_uYMlUmYp5R3_T9-Et1k_WiL0HS9A05pnH4c0rZ-SVF1HINDjyZlZLVIRCkCpI-8h5EtO4XjJxU_z36YEMcBdzirABSI2S6f9jOx9RPQoj6vS1S8tsGG6By7G1fxsAffOhTDTQLtqKe0xoHqDuXHt8vZ5zOGY6ZdNstxWRWIBDw35ARTQRktUH-3MjRT36K-4gTdMLJGx6dZs1wQebDPHvVZRsWLbyhm8UWIrozmyzJBUWX1RWcikrWMN5kQykUxO-7JX0Bd6106vX78FV-u_aHMXT2zgsXmELLTV7WwRVi33kEIwW5mJLBNCGQBrIs5ApGjOMDoqRe2RXJYnYoBNzTkDFRFWKeXNb0xt1TRL7Wvipv4dIXF4dC1HFm9ec-QuJkKzgZiLi73CM5ig-HOfcySIzdPaOmS9wa3FxXIB3l17cXXxtxuHzB7_jbQ1KW2ZofTv3oLy6lT8lFZtb-NVz4WgwIJ56Emfw4HoMAmBvINkGj2DGOo2z_Fd1VWB8p8PKMKG4QTJpp9_Pg4l9ts86TGnL76jEarU_sSHnv4ihGwl0kCgO1tZ3CPQejI6wpzzB6ovQ6mYNe2CzQXH8jDdjRngZQM0-TXfb7-NRQZJ_XoAlOxvwbIbhXzWRAyekfdMtMATsrlIaewxYcmCybOuwEQoDBJI6iW_YIy2p6ICPz3qsCSDNRpGL4_-XCUVap3KEIevTZDwClauJce-bmGHboZx0GE4Kyq8Q4PZwolDD2Pm2A9SystXrBEPVWWDsizdG6N0k0R5l-6Orf9WZkq-67CHL45zsAkEzBT1vu1SZ5yUMqMSWPpbrTOyetFacU9hpFsNgNqapI4SXFVHocNvr5mR9tNFGTe_v2yNNtZZHFgRBh1tgOE5ll2WZ7xvYQVPVmOhYoq6OF5gcguCOFFfs4RoPaEJ-aVO4ez0FiEBP-9rYAdQlajlHBy8voR26exZ0XSd3uJxWnb_pPUPf7HELnTDwoGrqAhcAmMbAqgBjNLGGn7hiMpE7vFdpSZCkJ8dilDnkFYYNA6sjg_W9umuO_K2bv9BMajWX3ZnDf1htw1XshBCGphKj_BCGaJbgd2jJgq-U4g4VH1TT-cH4DIuT_uQ1SJkKHddbTwcBjTIv5iiNXz90TP7Fg1lhu0dYoUM5jBwQMvqeQ3ykTjgaDF8UsWpL9Ob-cTPQ41mJVJh__4qcMUwlxuVT93O7NY2Ws4rs_StHWFh-CUclIWdvnFFnaYjgRGZGxnM0lGYQmuBn2GlyV3xGrmFHbMPVmWD0r9v-YFHUuToB3xvz612lPku6ILW7-5zQKo3Hsf07E5QV4xGEYGCaZvJv3LTqLEakq5QRPlcQ6r4tozyjHTkAvAN3fvh54NlS0b_Xf7v5ca6jHqixn9fYvPpFx1kdx0_UJQPlYGi0TnZ659icfrQqtDMkXR5T1O6-cbNoO729WGDfZ7b4DTihXmXX6z_3yRkm-wI4zZNTnFDCqS_poTNHEI37EZgAGAay_kewuFLw6pRrIE1ukxSWfiXj7FMVtVAIF3cC4Dnk2dpJXyNfjz39Pv_WvDG_4zisfjEjjW3_d2ChM4Hk6CA2ZmpbnJDycDZsF2C9JoNQBrKla0DbxbHwAKOPwsCpKNmuif93U-9RRcZ3qhB5b8e8FDZ5KyG1B6twyVP9WCg4fnbGu-ho1jBKnKvAWSbLcHaC5Re4Q-GJVJD7z0o83fSt5skLU797dS3Omwo8TTPHTKB2rXuZgbtjeHE_HZSctAK2wtfM1J7wgrw_RBl6F_xOniGvmF9xXYi4uwMKnEG0FUrJSx8jLwkhjkOuAEmjP9zchunTIek_f1QBW3FEEEy2_spPmBxKeMLYs0xJ6rPUTm4ZV0C3uV0Y_H9TFpCZ8Jm-8csPWxOlJXZLCogFI49opHJpp6WdF88sYXeJtJRQSmp0",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Фэнтези"],
+    description: "Волшебник-изгнанник отправляется в опасный путь со старыми друзьями. Аниме режиссёра «Магической битвы»",
+  },
+  {
+    id: "rukovodstvo-soten-demonov",
+    title: "Руководство сотен демонов",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/941f84e8-b687-401a-b195-6a0e0ffe01de/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Детектив", "Исторический", "Приключения", "Сверхъестественное", "Фэнтези"],
+    description: "Целительница приходит на помощь мистическим существам, то и дело встречающимся ей на пути. Аниме из Китая",
+  },
+  {
     id: "sverhkub",
     title: "Сверхкуб",
     image: "https://v1.animego.bet/uploads/posts/2025-05/sverhkub.webp",
@@ -658,6 +749,19 @@ export const animeList: Anime[] = [
     description: "Размеренной сельской жизни Берила Гарденанта приходит конец, когда его приглашает в столицу командир Королевских рыцарей Аллусия Цитрус. Берил помнит ее несмышленой девчонкой, которую он обучал премудростям мечника. Держа в уме крутой нрав бывшей ученицы, Гарденант отправляется в столицу. К своему удивлению в городе он встречает и других бывших учеников. Что задумала Аллусия? Все ли с ней в порядке? Если понадобится, седовласый наставник готов прийти на помощь.",
   },
   {
+    id: "tvoy-tsvet",
+    title: "Твой цвет",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/4f587fc1-846b-4314-a4a8-e756eee6a438/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 1,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Драма", "Музыка"],
+    description: "Застенчивая Тоцуко, которая видит ауру людей, начинает играть в музыкальной группе. Нежное аниме о поиске себя",
+  },
+  {
     id: "tvoya-forma",
     title: "Твоя форма",
     image: "https://tvoya-forma-2025.yume-animego.store/wp-content/uploads/all-anime-posters/c0dc2b875b20f21a16bf9fa47e5331.jpg",
@@ -712,6 +816,19 @@ export const animeList: Anime[] = [
     description: "Когараши Фуюзора – обычный старшеклассник, жизнь которого сложно назвать безоблачной. Пока сверстники наслаждаются беззаботными школьными годами, парнишка отчаянно борется за выживание. С ранних лет он наделен уникальным талантом, позволяющим ему видеть призраков, которые постоянно пользуются беззащитностью мальчика и приносят сплошные неприятности. С деньгами у главного героя тоже полная катастрофа. Но даже это не последняя трудность, ведь недавно парнишка потерял жилье, а значит ему необходимо в срочном порядке отыскать для себя дешевое убежище.\n" +
       "\n" +
       "Вскоре персонаж обнаруживает гостиницу Юраги, предлагающую комнаты по смешной цене. Конечно же, воодушевленный школьник соглашается на предложение отеля. Он даже не подозревает, что низкая арендная плата имеет существенную причину. Оказывается, в здании обитает дух погибшей девушки Юны, который постоянно досаждает постояльцам. Немного подумав, герой решает остаться в гостинице, ведь ради крыши над головой можно и потерпеть присутствие привидения. Естественно, покоя Когараши не видать. Изначально он был занят исключительно застрявшей в человеческом мире девчонкой, но потом понял, что остальные гости тоже далеко не рядовые граждане.",
+  },
+  {
+    id: "ja-byl-predan-tovarischami-v-glubine-podzemelja-no-blagodarja-svoemu-navyku-beskonechnaja-gacha-ja-obrel-sojuznikov-devjat-tysjach-devjatsot-devjanosto-devjatogo-urovnja-chtoby-otomstit-byvs",
+    title: "Я был предан товарищами в глубине подземелья, но благодаря своему навыку «Бесконечная гача» я обрёл союзников 9999 уровня, чтобы отомстить бывшим соратникам и всему миру!",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/10703959/aac91633-a2bc-4fae-a46e-50815e44c4c2/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Фэнтези", "Боевик"],
+    description: "С помощью воительниц Лайт создаёт своё королевство и мстит врагам. Новый хит режиссёра аниме «ТораДора!»",
   },
   {
     id: "ya-sekretar-gildii-no-ya-ne-lyublyu-sverhurochnuyu-rabotu-poetomu-ya-sobirayus-podchinit-bossa-v-odinochku",
