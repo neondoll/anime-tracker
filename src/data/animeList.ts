@@ -536,6 +536,18 @@ export const animeList: Anime[] = [
     description: "Второй сезон.",
   },
   {
+    id: "podnyatie-urovnya-v-odinochku-3",
+    title: "Поднятие уровня в одиночку 3",
+    image: "https://animego.me/upload/anime/images/677a28807323d672829725.jpg",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 0,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Приключения", "Фэнтези", "Экшен"],
+  },
+  {
     id: "sverhkub",
     title: "Сверхкуб",
     image: "https://v1.animego.bet/uploads/posts/2025-05/sverhkub.webp",
