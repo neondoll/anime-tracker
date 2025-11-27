@@ -519,11 +519,11 @@ export const animeList: Anime[] = [
     id: "na-jetot-raz-oderzhi-pobedu-nad-imperatorom-drakonov-blagorodnaja-devushka",
     title: "На этот раз одержи победу над императором драконов, благородная девушка!",
     image: "https://animego.gg/uploads/posts/2025-03/na-jetot-raz-oderzhi-pobedu-nad-imperatorom-drakonov-blagorodnaja-devushka.webp",
-    rating: { owl: 0, crocodile: 0 },
+    rating: { owl: 5, crocodile: 5 },
     episodes: 12,
     progress: {
-      owl: { watchedEpisodes: 0, status: "planned" },
-      crocodile: { watchedEpisodes: 0, status: "planned" },
+      owl: { watchedEpisodes: 12, status: "completed" },
+      crocodile: { watchedEpisodes: 12, status: "completed" },
     },
     genres: ["Комедия", "Фэнтези", "Романтика", "Сёдзё"],
     description: "Джилл Савель, некогда прославленная как Богиня Войны, оказалась преданной теми, кому отдала всю себя. Обвинённая в измене и приговорённая к казни, она умирает с горьким осознанием несправедливости. Но судьба даёт ей второй шанс — пробуждает её в прошлом, за шесть лет до роковых событий. Теперь Джилл полна решимости изменить ход истории и не повторить прежних ошибок. В отчаянной попытке избежать трагического союза с наследным принцем, она делает неожиданный ход — признаётся в любви будущему тирану, императору-дракону Хадису.\n" +
