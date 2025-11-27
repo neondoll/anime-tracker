@@ -994,6 +994,19 @@ export const animeList: Anime[] = [
     description: "Сыщица-вундеркинд и андроид спасают мир от смертельного вируса. Эффектное аниме с элементами киберпанка",
   },
   {
+    id: "tri-sestry-mikadono-okazalis-neozhidanno-prostymi",
+    title: "Три сестры Микадоно оказались неожиданно простыми",
+    image: "https://animego.me/upload/anime/images/687445f49e58d882064945.jpg",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Гарем", "Комедия", "Романтика", "Сёнэн", "Школа"],
+    description: "Ю Аясэ, отпрыск прославленной актрисы, унаследовал лишь её фамилию, но не дарования. После кончины матери юноша переезжает под опеку её давнего товарища. Теперь новый дом с ним будут делить три дочери опекуна, обладающие незаурядным характером. Каждая – воплощение ума и красоты. Ю, считающий себя заурядным, уверен: дружба с такими блистательными особами для него немыслима. Однако реакции трёх сестёр его ошеломили.",
+  },
+  {
     id: "fars-iz-ubiystva-devushki-nezhiti",
     title: "Фарс из убийства девушки-нежити",
     image: "https://animego.me/upload/anime/images/64a17174ddf36438458410.jpg",
