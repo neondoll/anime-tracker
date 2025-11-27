@@ -917,6 +917,20 @@ export const animeList: Anime[] = [
     genres: ["Приключения", "Фэнтези", "Экшен"],
   },
   {
+    id: "skaz-o-parii",
+    title: "Сказ о парии",
+    image: "https://animego.me/upload/anime/images/63b189342df8b247059914.jpg",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 13,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Исторический", "Сёнэн", "Фэнтези", "Экшен"],
+    description: "Жизнь сиротки Вистерии, влачившей жалкое существование, в один миг переворачивается с ног на голову, когда она встречает Марбаса — звероподобное бессмертное существо, преследуемое охотниками. Пусть Марбас и силён физически, но его дух ослаб, он так же одинок, как и Вистерия.\n" +
+      "Эти два одиноких сердца решают объединиться в поисках лучшей жизни — уголка, где они наконец обретут своё счастье.",
+  },
+  {
     id: "smertelnaya-igra-mertvoy-gory",
     title: "Смертельная игра Мёртвой горы",
     image: "https://animego.me/upload/anime/images/6434595d95c3e249018106.jpg",
