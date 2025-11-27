@@ -795,6 +795,32 @@ export const animeList: Anime[] = [
     genres: ["Приключения", "Фэнтези", "Экшен"],
   },
   {
+    id: "smertelnaya-igra-mertvoy-gory",
+    title: "Смертельная игра Мёртвой горы",
+    image: "https://animego.me/upload/anime/images/6434595d95c3e249018106.jpg",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Сверхъестественное", "Сэйнэн", "Фэнтези", "Экшен"],
+    description: "Великий герой одолел ужасное чудище, злого некроманта… или так всем хотелось бы думать. Ведь в последний момент монстр успел применить мощное заклинание, свой главный козырь — магию реинкарнации. Правда, в итоге она закинула его в другой мир в чужое тело, и теперь некроманта зовут Полька Синояма. Но даже тут о спокойной жизни ему можно только мечтать…",
+  },
+  {
+    id: "smertelnaya-igra-mertvoy-gory-chast-2",
+    title: "Смертельная игра мёртвой горы. Часть 2",
+    image: "https://animego.me/upload/anime/images/6576ba3234dfe946444185.jpg",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Сверхъестественное", "Сэйнэн", "Фэнтези", "Экшен"],
+    description: "Вторая часть.",
+  },
+  {
     id: "sozdannyj-v-bezdne",
     title: "Созданный в Бездне",
     image: "https://animego.me/upload/anime/images/5ab171b09fa5c770822816.jpg",
