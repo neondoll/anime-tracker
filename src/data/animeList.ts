@@ -21,7 +21,7 @@ export const animeList: Anime[] = [
   {
     id: "adskiy-ray-2",
     title: "Адский рай 2",
-    image: "http://www.world-art.ru/animation/img/12000/11805/1.jpg",
+    image: "https://i.ytimg.com/vi/SHxlbN8GTiA/maxresdefault.jpg",
     rating: { owl: 0, crocodile: 0 },
     episodes: 0,
     progress: {
@@ -350,7 +350,7 @@ export const animeList: Anime[] = [
   {
     id: "drakon-radzha",
     title: "Дракон Раджа",
-    image: "https://v1.animego.bet/uploads/posts/2025-05/drakon-radzha.webp",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/310a732e-4253-4dc6-a625-6d26651457ac/1920x",
     rating: { owl: 5, crocodile: 5 },
     episodes: 16,
     progress: {
@@ -363,6 +363,18 @@ export const animeList: Anime[] = [
       "Новое путешествие героя наполнено неожиданными поворотами и смертельными испытаниями. Вместе с верными союзниками он противостоит древним демонам и коварным богам, жаждущим уничтожить человечество. Но самая страшная угроза таится в тени – среди тех, кого Нин Хуан считал друзьями, зреет предательство. Чтобы спасти мир, охотнику придётся не только отточить свои навыки до совершенства, но и сделать невозможный выбор между долгом и чувствами.\n" +
       "\n" +
       "С каждым сражением герой и его команда раскрывают новые грани своей силы, сталкиваясь с невообразимыми формами зла. Однако истинная битва разворачивается в их сердцах – смогут ли они сохранить человечность перед лицом тьмы? История Нин Хуана – это эпическая сага о жертвах, искуплении и вере в лучшее будущее, где каждое решение имеет последствия, а цена победы может оказаться слишком высокой.",
+  },
+  {
+    id: "drakon-radzha-2",
+    title: "Дракон Раджа 2",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/310a732e-4253-4dc6-a625-6d26651457ac/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 24,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Приключения", "Фэнтези"],
   },
   {
     id: "zhurnal-mononoke-avtor-tyudzendzi",
