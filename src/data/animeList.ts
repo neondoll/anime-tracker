@@ -1025,6 +1025,19 @@ export const animeList: Anime[] = [
     description: "Целительница приходит на помощь мистическим существам, то и дело встречающимся ей на пути. Аниме из Китая",
   },
   {
+    id: "rukovodstvo-soten-demonov-2",
+    title: "Руководство сотен демонов 2",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/941f84e8-b687-401a-b195-6a0e0ffe01de/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Детектив", "Исторический", "Приключения", "Сверхъестественное", "Фэнтези"],
+    description: "Целительница приходит на помощь мистическим существам, то и дело встречающимся ей на пути. Аниме из Китая",
+  },
+  {
     id: "sverhkub",
     title: "Сверхкуб",
     image: "https://kinopoisk-ru.clstorage.net/1a67dy098/8611d2xOYY9w/I0qKNXQchirvtLN0mFVJJHV1jCMCqHLscFkDqyEL1-s6BCaIGU5VMhuN-2f-7NVqYAeJEtK0uIJHOVIoqrHKxXdqrlCQ6VNr74AGcV2VXYWghc0id9zWnaXoFg6FCNSIGKLV6jp8txR8eY9z_xlAbwQD2bIWoQxzBn50jLsBjlKSeYh20H5l6Yvl4edaheki9KTtV1PZAJnSy_FboCnm2log1tp4HbdUPIqeo-jZYZ6n8ssgtBD4gsQNdcmKEDzDkQqL1GBvxRur5WDk6nf7goeHDieA6WMIckuya4BaNDoZgJVYKP40NA-5zJC4W0C-5HKYQ_SRe6D0rWQqiMFtUzBpyhYSHtR6SPSyNGm16cBnd8-lEBpx2_FpEWlwWKZpaOH06kjfZeQOWK8wSZrxnwezi1MXcLpxR473GMrxLXFiyDom8i53yJu2ISbo14mhhPacJPKrczqzaLF44FoFG0kiZGhq37flnBqtIGtpY1-1UIlRpWF78ySsBZgKMo5w0igYFpA-Bqt7pHA02WWJAObXXRUAqhLackjQaIFp5ct7sGT4Ow5VFn04voH5mPA9xXG5kpXRekMnvIfr-dLcsAIoKIYSHgab6_VjNsh0arGXVQ308LkxGgPbwWuhaVfKyqBkilmPFHQOOn4y6niAzXSAyRAGwDsQR23FSMgQ7AFTagpEAq62uWl2QVYLZEuDxoWdVKB5E5gyieH5E4gVi1pCVig43WVV7_jvM6vrgV72MctwVAIpMIRddevIgS7y86urltAeZXurl-OmOOXIAZfnT7UiKbCb45lTa_KLlHl4wYdb2Q8kBo65nCJoipLuRjC50vUi6nA1zBXLu7NtsqDIGCYzvSb6-jQDBRhGC5G3Z38Vk-kRa5Iqw5uCm_X5aMGVO0mNFEQ-eH8wuQuzvTQB2-K3YOiC1z8VGfsArnLSmRiU44622Zk1cVc65QjChWWuF4L5UIowabOqcQmU-ngR5PoLPRc0frjtYkj7YAyFwBpQRuDoIDYsF_h6A87RQhuplXJfFkmpRgF0G4QLkHXGndRymqA68agxeeEL1Rhbk6cIS25X5N3LnzK5G1BO5kOIwjQwqZOFrUVq-oKs0pM42pRSLXSpC-XSNSgn2YCkpk0nkCkjKsJ78AhwmCVbONKGiWoehfWNOJ7iucsizJZyKcKloQhSxa_EKonw3AJhmLknME806qlmIEYLJwoihJTtRRJ602jgy2OosUhHWaoDdDo5DgTn_CgcYYtrwr0EomuCZLFo0VZct5p5sA9iUorqFAI8dJjJd-HVSSfKA_UHHHfCmhO7ImtRGUEZt-kakhZqCE2n9l36TjA4u1DNJ6CZcNXDSYB175eaOvLvMLGI-Adz3WYJKQZB5kg0SYPHJt3HY5hg68GKoflTmXQ46eJkSIl9JgW8Wq0BCYiwnRZh-9DnQevQ1g2VWsgQDoAA-ZtGMO3VOHmVoGU6RlqAV6ddJMA6U1qCyrHbIGplqVjhZWr6fnQnvhhvclkqYs9HgjgC1cA7MWfstSiago9RsBjpdDAsZglbZmBE-bQpoIXX_7fg6sGKkIswKxFrB5ia8rV66n2EJ574HuKoW4JfNuA7crcCOPDkvoXZ2jIM0zCb6aUxnpYpqaSDxerniYHlNaxnEiozSCCLIikQaQUoivNm-ZmfRSV92A9CWdmzz0dRmEIFcXjSNU7FqZni3yIAibt2Y342iHmH0AdYpjgAt6RM9ZF5IinQmNH6wOk2KvkixPrZnATm38vtoqjZE3_2gvugJ-Dp4GStNkpoEX8jMlrJBvLOlpq7pADnGQWpMEWHDDcCyFC587mj-6JJZRsY0_bIWE5lFg-53MLq2oGvtlL60cUCuLF1f8ZJiZAM8aL6y7YCHubZ6-VRRotmOMHV1-10cktwi9OqE3kwOmQZeEP0eqofZ9d-6B7waLnQbSRCGgG1otiw129mesuDLMJBGMqEIs8WCMhHMdSKR5mTp6WNlZKoYUrTufNo0Lpk-wvSRxqJjOTljPvMclubUhzk4quCZ0PasrR_Bms6AJ8hMTq7NLAOp2sp1_ME-0fpsgUk_fdyunH6w2ux6PGaNYk6cMRJ2a0Hl55LnXJ72HHtJ8Po4wTzmjOlXOQbqsMu4qF6-XYQrkSq66YiJBiHCjHEpl8HQBjzC8B5UgvDOzZbC5N0-Lv_dXX9-I0w29sAjQbSa_MUkKiAFX7nW7vAjjOQ6jgHwG3UWZoWchSa5gogFJdcNpNI0IiQ23BJ8lkFWDogRRmID4dUHQjOgjjrEZ0EYKngd1Po4Bce9WvLMd4ikIhbJcCMZuiJNROFOvQKEaaUX1cQ-7KogktDKNJrpuspMNZ4SC5kxC-onmIZi3GNdsIb8FcxG_F0TWRqSgPNQIMKa3ST_xarOXZDtrknmsMHBV4VcHkBaNJrsFkiqEXLmbJXOujM1faey34QyotzvMfBuMDl8OnzZ-_1KviB7EJgGammsb1lW7t1w-VJRVvShvS895HZcqrBm2IJU6ukGyjwloib_3VHTmhvo4magIznU-gTtKDJA3ZsBkiLoN0zEUooZRJNFUpZxlNUKqU6EFc3POXDiFG4g9oCSOBbl0p64MS4KMw3xE75r5MLiTDe1hK5Y5fzCrFmf6foywOuorE7ybTTbmXLe9WRxtlGGPH2tR9Fc6tQynIqsmlxW4Uqa5G06rnu5vS9O65C6TkjnsdjuQIU0fhhJDz1q8uQDqMQeFuGMO_1CMp3gaX4dQqw5gXM5UALYrpSmvIYkkm2-0vQtrnJ3UTGbYvs0esJggy1g9rCVhMLkRX9VfrL47ySQ6nZ5dFtVvr7RhDkCAQL8MVmnbSRqrCYcBlSy5NLpjtoQYSa-N2GJP4rfnErC9FtlIL64RSz6aNWXwVqmbIM4aGq6nXQ3kZ7S-UTtBqXmbLnJK_1s4uAyEJqEyiwihfamIHUKVoOxzZOWl5g65jQfMZD6SBHYjrRY",
@@ -1190,7 +1203,7 @@ export const animeList: Anime[] = [
   {
     id: "starik-iz-derevni-stanovitsya-svyatym-mechom",
     title: "Старик из деревни становится Святым мечом",
-    image: "https://v1.animego.bet/uploads/posts/2025-05/starik-iz-derevni-stanovitsja-svjatym-mechom.webp",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4716873/25bd6af1-7b12-4522-8b3a-c12d429bd48b/1920x",
     rating: { owl: 4, crocodile: 4 },
     episodes: 12,
     progress: {
@@ -1216,7 +1229,7 @@ export const animeList: Anime[] = [
   {
     id: "tvoya-forma",
     title: "Твоя форма",
-    image: "http://www.world-art.ru/animation/img/12000/11828/1.jpg",
+    image: "https://kinopoisk-ru.clstorage.net/1a67dy098/8611d2xOYY9w/I0qKNXQchirvtLN0mFVJJHV1jCMCqHLscBjSDyUeQi8v5XOcPH4wY-ud-weebHWq8ee5B9e0-NJyDedd-vS-NbcqyyEV7GZe36AWYXmQXfWWZi914PvRW4J74dkxelYO6gBm-Dhe1ffeLB8j2AoE_nTim-L0gtoCpR4FKApTHTKi-xl1ccxmytp2EhZadwjQt1R9N2L44Rnje6GZwmuGGSohl1vJTEdVb9ju4asLQc9lUArhh4F4srS-9wgK0h6CUOm5BlIvFhnqFYO22jQ48MSGnXTCu2NJAPjBqvE5tUmoALcYSR8kFe5bzNELGqLNtAGaQOTAusDFr5brGwDOAZL7--ai7pSJGQdQNfiXOgDGFM4Fo9rRKSGpEasQWhW4abGW-4gMNPYPmh1iKImQj4RBuBJFMIog9QwkOFmT3IDwm5oFI70Va6gFsXf5NyuQxLe8JGBKUwshexA5UlgFmpojVklrDjZEHlufAQp7EE9H4rmipRK6QuV9R9hLws6xQps7ZwJ8JJmpZFG22VY78fdXbBbySsNa8Jnj2HBLpAhrsDQ5Sj71dK5aLwIa-WO8p7B5cqUiKsDFfXdIGtHMoFN4ihaALMVpukeRx0pHONH35W2n4kqxOHHYgatyixcbi8DEiLtOd-e_G3xiy7vAjWWAyCPnAOjQdc1VypnzrGNDWbhHULxlOXplE_YYZ6pjFqcsNwB4E1kjqaBKsBoWWhjBVwoKTBe1fQlcofsLY430QjuDJqE6AsUelwh4UVxQwto6FjJuhLsqxhAnCNU4ghUm3hWDqWC48ejzK_FpB5l50ue6Cz61FF3KHBBqa0P-xgF70EUSiuFmXRZZ27H_cGEZqjayXiQK6mfgVrtFyPIFR14Fg7sAKHPYsZswihVI-PO0yDpchVYfyO7ymWuRvnXCu6IUEjgxVc01OtrDrVLCGvkEsI8mG_omAfT4NfkBlyZdFVPKwWrD28Hb8BhHuQggBXn7nTenn8hME4ppcD92ohgylqM5oIRtpQqps45zoxmr9BO85euZ1rE1ObcqkZVnvzbRiTMqkJsReINqF0joEEcaeA-l1U-J_6ALO-K_98Ab47XQOID2D0WoCmDPQADLuyVzbBYJKlWhBup2WwAGl_xVkKiyC-BJAChwa8dIOGLFakmupUTeKD7gCbqizIWwyxEVs4vilE8GComSvGMAGBkFQcx0i3ml4yRa5fvB1vX-x0FaAVjwyBJZYOlEepiCtPiZ7OWFzki9c_rJEjzFY6siB-C40OcPdGqYUy8hANg4dNI9RluZZTDm-tdKMYcFTnfQOFFps2sD-LK7FclIEMTbmx4XNLxp7FBJ6RJ_h4P5wQXyq6EGHeWK6fMcIBNbuEbz_Pb6mxZgBRsnqiMHxp-EoEpz6IPq8BkSWCT4e_CU6lp8twY-y7zzq-vSjWViSXB0keriNq7U2noSn1JhSLvWcnwVWTkl0UZbN4hQ9NcONaNLUZuAuNIbUJpXqNkixru5v2U0vxtdQkrLoN_345jAlePY4vcd5fiJ0r6RkzubBALehnnptwFUGrZ4YfW1P_ewm0GLg0jSO7Drx1mowlbK27wVVn0YnMEY-1GfR2AaQBbjCeNF7cUKSzE_gsCbumTgjVaLKUXD5BqkemD3t4_nsUjC-GGJ0NiQ-meoKvPGu2ofJeQOWL4Q6Lsh3Jez63AEsdqxpU1k2mhi_TCBKjs2cW3ECHpUohQJV6mwd4SNlGDqwbhiyBN6gxiHWSpTdgq5fMfGn8mMQQtIwi1kE-pC18OqIBXtdhhLsh1xIrsLxFItBpvLJjI3KCWo0tfXvHWR2PM5sKnjqvEp5xspwaZKaX22JH2Y3VDZuMHM5WA40nfBGtDFnTVICuO840Eq-lQCzEXrSAYAFzuVKkCk1r4VAdpBy-GrItug69WZSpBk2HmdZlTd-NzyyRjyjvZACzGVwCjwFG3ka6iDLuJgi6gmcKykC6sXwRcodTugJNZcZpBpIehyKBApszlXqmgSFRjZLOWGPPrekdl443918-hBt7GYYtXch4o4Qf6TYPuJhPHcxuu5B3EH-je7gQSHLlcy6nK4U8tiOwNoV4orMeTb-G-E5Yy6X4D6mpPvtkIr0ffz2sJ1P0ZISZDecKAYCkVzfjbZG4WABOjUWLOlhPxm0VrD2gG5gFiweBUqKECE-unslPXviOww2JnT_rXi-uBnMqsStq-1OfnA7vLBGBuVQn0HCkumA1RK9hqCx7f_V2JrIunxS6G4QDunyRhRlPhbLoeWLMiMMriL445EsuvgBVGJElcdBCraoX9S0xgqJ0F-Zon4xCNG2sV7ovUUTERy-EMp0KgxiuBrR-h4MYSK-ZyXtk47nVHrGuIPdqGJ84dh2EEkbUeamfFM0QCI-IbQfyTpenfjFvo2ClI292z08HkBiTIZAzuDizU7eDO1O_o_pwSPyZ9CSYuivfSAixCUowpjZh63GJpxHyFiSekHIZ3GCNoEIQUK5FojNRa8RbK4s_oBubLrIJqGeGnAhRtob3RV3-lvU8p4wM7VsfphxyLJwJZupvop4a5Cgigr1uId1FqLJzNHS4QbkMUl7Rei6oNJMvsx67Fatvp6cNcqKT4Edowq3UPZ2WCOdsJrwbbDGAG1HifYOiM8sWEKyndgPnTqqCZBtrs0OgHFN40G05rR2BAqARhzW2cYymOXO1g-ZfWu2A0BmosjjuViamD1USriNI7kaZgzX5BSGItn0O3U2QgUMZYLdEvi1wRcJpKYgqgjiDPIwxn0GvrCBUm4XaW3bCv9MFsrco6W0FszJNNJA7YtFlipoh5gIxnLRLO8hQipxhO0iNSY49UUnAUDqqGZI0rRW2OLVNr4kWRouX2G9czJz3P5e-Lcx2Ao0Sfg2QIFPZfoCqFOcrCLiWbxjsQqiPZDhvuVe8AUpX31w_oSO_ALw-sSq0Uaa5B1OnhuR6YdGr1DqUvB70XB2fI2gahSY",
     rating: { owl: 5, crocodile: 0 },
     episodes: 13,
     progress: {
@@ -1257,7 +1270,7 @@ export const animeList: Anime[] = [
   {
     id: "chelovek-benzopila",
     title: "Человек-бензопила",
-    image: "https://v1.animego.bet/uploads/posts/2025-05/chelovek-benzopila.webp",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/8205541e-8436-41f8-8dcf-720400965d5e/1920x",
     rating: { owl: 5, crocodile: 5 },
     episodes: 12,
     progress: {
