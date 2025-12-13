@@ -4,7 +4,7 @@ export const animeList: Anime[] = [
   {
     id: "adskiy-ray",
     title: "Адский рай",
-    image: "http://www.world-art.ru/animation/img/11000/10766/1.jpg",
+    image: "https://i.ytimg.com/vi/SHxlbN8GTiA/maxresdefault.jpg",
     rating: { owl: 5, crocodile: 5 },
     episodes: 13,
     progress: {
