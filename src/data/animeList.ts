@@ -1204,7 +1204,7 @@ export const animeList: Anime[] = [
   {
     id: "tvoya-forma",
     title: "Твоя форма",
-    image: "https://tvoya-forma-2025.yume-animego.store/wp-content/uploads/all-anime-posters/c0dc2b875b20f21a16bf9fa47e5331.jpg",
+    image: "http://www.world-art.ru/animation/img/12000/11828/1.jpg",
     rating: { owl: 5, crocodile: 0 },
     episodes: 13,
     progress: {
