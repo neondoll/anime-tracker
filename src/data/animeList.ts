@@ -4,7 +4,7 @@ export const animeList: Anime[] = [
   {
     id: "adskiy-ray",
     title: "Адский рай",
-    image: "https://v1.animego.bet/uploads/posts/2025-05/adskij-raj.webp",
+    image: "http://www.world-art.ru/animation/img/11000/10766/1.jpg",
     rating: { owl: 5, crocodile: 5 },
     episodes: 13,
     progress: {
@@ -17,6 +17,18 @@ export const animeList: Anime[] = [
       "Сие чудо надёжно запрятано на сказочном острове, откуда не так-то легко вернуться живым.\n" +
       "Много лет сёгун бился за свою мечту: отправлял бравых воинов на поиски загадочного эликсира жизни. Но тщетно. Отчаянье родило в голове правителя мысль не растрачивать жизни верных слуг попусту и перевернуть игру. Был издан приказ!\n" +
       "Отныне опасным поручением будут заниматься те, кому нечего терять, а то есть жестокие убийцы, приговорённые к смертной казни. Убийцы будут сосланы на райский остров. Но такой ли он райский, как о нём говорят?",
+  },
+  {
+    id: "adskiy-ray-2",
+    title: "Адский рай 2",
+    image: "http://www.world-art.ru/animation/img/12000/11805/1.jpg",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 0,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Приключения"],
   },
   {
     id: "apokalipsis-minogry-pokorenie-drugogo-mira-nachinaetsya-s-razrushennoy-civilizacii",
