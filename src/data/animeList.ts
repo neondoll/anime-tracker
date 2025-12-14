@@ -371,8 +371,8 @@ export const animeList: Anime[] = [
     rating: { owl: 0, crocodile: 0 },
     episodes: 24,
     progress: {
-      owl: { watchedEpisodes: 0, status: "planned" },
-      crocodile: { watchedEpisodes: 0, status: "planned" },
+      owl: { watchedEpisodes: 6, status: "watching" },
+      crocodile: { watchedEpisodes: 6, status: "watching" },
     },
     genres: ["Приключения", "Фэнтези"],
   },
