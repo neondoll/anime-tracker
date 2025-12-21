@@ -389,7 +389,7 @@ export const animeList: Anime[] = [
     episodes: 24,
     progress: {
       owl: { watchedEpisodes: 6, status: "watching" },
-      crocodile: { watchedEpisodes: 6, status: "watching" },
+      crocodile: { watchedEpisodes: 12, status: "watching" },
     },
     genres: ["Приключения", "Фэнтези"],
   },
@@ -664,8 +664,8 @@ export const animeList: Anime[] = [
     rating: { owl: 0, crocodile: 0 },
     episodes: 12,
     progress: {
-      owl: { watchedEpisodes: 0, status: "planned" },
-      crocodile: { watchedEpisodes: 0, status: "planned" },
+      owl: { watchedEpisodes: 0, status: "watching" },
+      crocodile: { watchedEpisodes: 0, status: "watching" },
     },
     genres: ["Фэнтези", "Мелодрама", "Драма"],
     description: "Принцесса Анисфия мечтает летать, но магическими способностями не обладает, хотя в её прошлой жизни всё было по-другому. Она отказывается от трона и с головой уходит в создание новой науки — магикологии. Однажды Анисфия видит, как её брат Альгард публично разрывает помолвку с навязанной ему по политическим мотивам Юфиллией.",
