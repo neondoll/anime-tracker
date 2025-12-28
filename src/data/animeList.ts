@@ -310,7 +310,7 @@ export const animeList: Anime[] = [
   {
     id: "geroj-mertv",
     title: "Герой мёртв!",
-    image: "https://animego.gg/uploads/posts/2025-03/geroj-mertv.webp",
+    image: "https://pic.rutube.ru/playlist/71f63739-c0ad-11ef-9e2b-02420a000318.png",
     rating: { owl: 0, crocodile: 0 },
     episodes: 12,
     progress: {
