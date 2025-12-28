@@ -216,7 +216,7 @@ export const animeList: Anime[] = [
   {
     id: "vladyka-ada-v-pechali",
     title: "Владыка ада в печали",
-    image: "https://animego.gg/uploads/posts/2025-04/vladyka-ada-v-pechali.webp",
+    image: "https://media.myshows.me/shows/760/3/e9/3e9a20a7bc654a93199e7c7a8be1612f.jpg",
     rating: { owl: 0, crocodile: 0 },
     episodes: 12,
     progress: {
