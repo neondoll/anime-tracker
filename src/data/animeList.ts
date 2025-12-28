@@ -688,7 +688,7 @@ export const animeList: Anime[] = [
   {
     id: "mogu-ja-poprosit-esche-koe-chto",
     title: "Могу я попросить ещё кое-что?",
-    image: "https://animegoo.art/uploads/posts/2025-10/mogu-ja-poprosit-esche-koe-chto.webp",
+    image: "https://pic.rutube.ru/playlist/2025/10/10/ae/8c/bc95ebda-a5d2-11f0-92ac-4658ae16d49f.jpg",
     rating: { owl: 0, crocodile: 0 },
     episodes: 13,
     progress: {
