@@ -793,7 +793,7 @@ export const animeList: Anime[] = [
   {
     id: "na-jetot-raz-oderzhi-pobedu-nad-imperatorom-drakonov-blagorodnaja-devushka",
     title: "На этот раз одержи победу над императором драконов, благородная девушка!",
-    image: "https://animego.gg/uploads/posts/2025-03/na-jetot-raz-oderzhi-pobedu-nad-imperatorom-drakonov-blagorodnaja-devushka.webp",
+    image: "https://pic.rutube.ru/playlist/13c184b5-bff9-11ef-8f7f-02420a00031f.jpg",
     rating: { owl: 5, crocodile: 5 },
     episodes: 12,
     progress: {
