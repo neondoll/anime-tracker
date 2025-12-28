@@ -103,7 +103,7 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, activeRating }) => {
         </div>
       </div>
 
-      <div className="p-4">
+      <div className="flex flex-col p-4">
         <h3 className="font-bold text-lg text-white mb-2 line-clamp-2">{anime.title}</h3>
 
         {/* Рейтинги */}
