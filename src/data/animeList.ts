@@ -870,7 +870,7 @@ export const animeList: Anime[] = [
   {
     id: "novye-vrata",
     title: "Новые врата",
-    image: "https://animego.gg/uploads/posts/2025-03/novye-vrata.webp",
+    image: "https://pic.rutube.ru/playlist/8fde7ff6-dcfd-11ef-82bc-02420a00065f.png",
     rating: { owl: 0, crocodile: 0 },
     episodes: 12,
     progress: {
