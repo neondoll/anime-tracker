@@ -233,7 +233,7 @@ export const animeList: Anime[] = [
   {
     id: "vojti-v-sad",
     title: "Войти в сад",
-    image: "https://animego.gg/uploads/posts/2025-03/vojti-v-sad.webp",
+    image: "https://m.media-amazon.com/images/M/MV5BMzI0YWZhZDAtNmZiMS00NTRjLWI5NWItZWNlZTRjODJkYmQ4XkEyXkFqcGc@._V1_.jpg",
     rating: { owl: 0, crocodile: 0 },
     episodes: 3,
     progress: {
