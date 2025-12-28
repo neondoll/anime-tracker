@@ -129,13 +129,13 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, activeRating }) => {
 
         {/* Описание */}
         {anime.description && (
-          <p className="mb-3 text-gray-400 text-sm line-clamp-2">{anime.description}</p>
+          <p className="text-gray-400 text-sm line-clamp-2">{anime.description}</p>
         )}
 
         {/* Ссылка на страницу */}
         {anime.video && (
           <a
-            className={`flex justify-center items-center px-4 py-2 w-full text-base text-center text-gray-300 bg-gray-700 rounded-md transition-colors hover:bg-gray-600`}
+            className={`flex justify-center items-center px-4 py-2 mt-auto w-full text-base text-center text-gray-300 bg-gray-700 rounded-md transition-colors hover:bg-gray-600`}
             href={anime.video}
             target="_blank"
           >
