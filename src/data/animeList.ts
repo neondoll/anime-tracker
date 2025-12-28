@@ -604,7 +604,7 @@ export const animeList: Anime[] = [
   {
     id: "lozhnyye-vyvody",
     title: "Ложные выводы",
-    image: "https://animego.zone/uploads/posts/2025-07/lozhnye-vyvody.webp",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/d3e9762f-157c-44fe-aa97-ec9ddd3776d5/1920x",
     rating: { owl: 0, crocodile: 0 },
     episodes: 12,
     progress: {
@@ -619,7 +619,7 @@ export const animeList: Anime[] = [
   {
     id: "lozhnyye-vyvody-2-sezon",
     title: "Ложные выводы 2 сезон",
-    image: "https://animego.zone/uploads/posts/2025-07/1753437845_lozhnye-vyvody-2.webp",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/d3e9762f-157c-44fe-aa97-ec9ddd3776d5/1920x",
     rating: { owl: 0, crocodile: 0 },
     episodes: 12,
     progress: {
