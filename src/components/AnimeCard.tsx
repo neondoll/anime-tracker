@@ -135,7 +135,7 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, activeRating }) => {
         {/* Ссылка на страницу */}
         {anime.video && (
           <a
-            className="px-3 py-1 w-full text-sm text-gray-300 bg-gray-700 rounded-full transition-colors hover:text-white hover:bg-primary-500"
+            className={`flex justify-center items-center px-3 py-1 w-full text-sm text-center text-white rounded-full transition-colors ${getStatusColor(anime.progress[activeRating].status)}`}
             href={anime.video}
             target="_blank"
           >
