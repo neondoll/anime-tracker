@@ -91,7 +91,7 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, activeRating }) => {
   };
 
   return (
-    <div className="card hover:scale-105 transition-transform duration-200">
+    <div className="card flex flex-col hover:scale-105 transition-transform duration-200">
       <div className="relative">
         <img
           src={anime.image}
@@ -103,7 +103,7 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, activeRating }) => {
         </div>
       </div>
 
-      <div className="flex flex-col p-4">
+      <div className="flex flex-col flex-1 p-4">
         <h3 className="font-bold text-lg text-white mb-2 line-clamp-2">{anime.title}</h3>
 
         {/* Рейтинги */}
