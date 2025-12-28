@@ -939,7 +939,7 @@ export const animeList: Anime[] = [
   {
     id: "povelitel-tajn-kloun",
     title: "Повелитель тайн: Клоун",
-    image: "https://animego.gg/uploads/posts/2025-07/povelitel-tajn-kloun.webp",
+    image: "https://pic.rutube.ru/playlist/2025/07/20/12/0d/8fcc40ee-6570-11f0-8b08-ea22387c56f5.jpg",
     rating: { owl: 5, crocodile: 5 },
     episodes: 13,
     progress: {
@@ -956,7 +956,7 @@ export const animeList: Anime[] = [
   {
     id: "povelitel-tajn-kloun-2",
     title: "Повелитель тайн: Клоун 2",
-    image: "https://animego.gg/uploads/posts/2025-07/povelitel-tajn-kloun.webp",
+    image: "https://pic.rutube.ru/playlist/2025/07/20/12/0d/8fcc40ee-6570-11f0-8b08-ea22387c56f5.jpg",
     rating: { owl: 0, crocodile: 0 },
     episodes: 0,
     progress: {
