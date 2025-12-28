@@ -4,7 +4,7 @@ export const animeList: Anime[] = [
   {
     id: "adskiy-ray",
     title: "Адский рай",
-    image: "https://i.ytimg.com/vi/SHxlbN8GTiA/maxresdefault.jpg",
+    image: "https://pic.rutube.ru/video/d7/81/d7815e31ebd4359e9f73632523351272.png",
     rating: { owl: 5, crocodile: 5 },
     episodes: 13,
     progress: {
@@ -21,7 +21,7 @@ export const animeList: Anime[] = [
   {
     id: "adskiy-ray-2",
     title: "Адский рай 2",
-    image: "https://i.ytimg.com/vi/SHxlbN8GTiA/maxresdefault.jpg",
+    image: "https://pic.rutube.ru/video/d7/81/d7815e31ebd4359e9f73632523351272.png",
     rating: { owl: 0, crocodile: 0 },
     episodes: 0,
     progress: {
@@ -33,7 +33,7 @@ export const animeList: Anime[] = [
   {
     id: "apokalipsis-minogry-pokorenie-drugogo-mira-nachinaetsya-s-razrushennoy-civilizacii",
     title: "Апокалипсис Миногры: Покорение другого мира начинается с разрушенной цивилизации",
-    image: "https://animego.me/upload/anime/images/685c68f61eefb731255142.jpg",
+    image: "https://pic.rutube.ru/playlist/2025/07/31/13/5d/57219ade-6e3c-11f0-8255-861ce4882545.jpg",
     rating: { owl: 5, crocodile: 5 },
     episodes: 13,
     progress: {
