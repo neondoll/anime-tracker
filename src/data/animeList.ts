@@ -718,7 +718,7 @@ export const animeList: Anime[] = [
   {
     id: "moj-status-ubijcy-ochevidno-prevoshodit-gerojskij",
     title: "Мой статус убийцы очевидно превосходит геройский",
-    image: "https://animego.gg/uploads/posts/2025-10/moj-status-ubijcy-ochevidno-prevoshodit-gerojskij.webp",
+    image: "https://pic.rutube.ru/playlist/2025/10/13/b9/55/b44ede52-a7f2-11f0-a65a-8e3bbf5d3e66.jpg",
     rating: { owl: 0, crocodile: 0 },
     episodes: 12,
     progress: {
