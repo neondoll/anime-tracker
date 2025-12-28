@@ -85,7 +85,7 @@ export const animeList: Anime[] = [
   {
     id: "besklassovyj-geroj-da-mne-vse-ravno-ne-nuzhny-jeti-vashi-umenija",
     title: "Бесклассовый герой: Да мне всё равно не нужны эти ваши умения",
-    image: "https://animego.gg/uploads/posts/2025-09/besklassovyj-geroj-da-mne-vse-ravno-ne-nuzhny-jeti-vashi-umenija.webp",
+    image: "https://pic.rutube.ru/playlist/2025/10/16/45/e1/d5c76a23-aa9c-11f0-8b40-165038ed8a83.jpg",
     rating: { owl: 0, crocodile: 0 },
     episodes: 12,
     progress: {
