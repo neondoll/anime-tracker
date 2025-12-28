@@ -23,4 +23,5 @@ export interface Anime {
   progress: AnimeProgress;
   genres: string[];
   description?: string;
+  video?: string;
 }
