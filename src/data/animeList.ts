@@ -102,7 +102,7 @@ export const animeList: Anime[] = [
   {
     id: "blagouhajuschij-cvetok-rascvetaet-s-dostoinstvom",
     title: "Благоухающий цветок расцветает с достоинством",
-    image: "https://animego.gg/uploads/posts/2025-07/blagouhajuschij-cvetok-rascvetaet-s-dostoinstvom.webp",
+    image: "https://pic.rutube.ru/playlist/2025/08/06/32/47/2e8dcd5f-72f7-11f0-8531-2269f3dd79c2.jpg",
     rating: { owl: 0, crocodile: 0 },
     episodes: 13,
     progress: {
