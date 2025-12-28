@@ -278,6 +278,7 @@ export const animeList: Anime[] = [
     },
     genres: ["Фэнтези", "Боевик"],
     description: "Невинно осужденный подросток пытается выжить среди мусорных монстров. Аниме сценариста «Дандадана»",
+    video: "https://www.kinopoisk.ru/series/7524629/",
   },
   {
     id: "genialnyy-celitel-kotoryy-iscelyal-v-odno-mgnovenie-no-byl-izgnan-kak-bespoleznyy-teper-naslazhdaetsya-zhiznyu-v-kachestve-temnogo-celitelya",
