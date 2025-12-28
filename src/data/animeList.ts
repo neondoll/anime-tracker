@@ -325,7 +325,7 @@ export const animeList: Anime[] = [
   {
     id: "dozhd-i-ty",
     title: "Дождь и ты",
-    image: "https://animego.me/upload/anime/images/6863884899f3b273695170.jpg",
+    image: "https://pic.rutube.ru/playlist/2025/07/15/29/71/b0c875bc-61ba-11f0-9e7a-da1868a49a00.jpg",
     rating: { owl: 5, crocodile: 5 },
     episodes: 12,
     progress: {
@@ -333,6 +333,8 @@ export const animeList: Anime[] = [
       crocodile: { watchedEpisodes: 12, status: "completed" },
     },
     genres: ["Повседневность", "Сэйнэн"],
+    description: "Одним дождливым днём, который ничем не отличался от предыдущих, Фудзи шла по улице и заметила на обочине коробку с запиской: ″Подберите меня, пожалуйста″. В самой же коробке сидело некое создание, похожее на собаку, которое, к большому удивлению Фудзи, протянуло ей зонтик. Поддавшись минутному порыву, девушка решила взять необычную собаку себе, и с того дня каждый новый день её жизни наполнен милотой и теплом.",
+    video: "https://rutube.ru/plst/1123841/",
   },
   {
     id: "domashniy-pitomec-inogda-sidyaschiy-na-moey-golove",
