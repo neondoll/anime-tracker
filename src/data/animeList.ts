@@ -67,7 +67,7 @@ export const animeList: Anime[] = [
   {
     id: "belogo-maga-izgnannogo-iz-komandy-geroja-podobral-avantjurist-ranga-s-jetot-belyj-mag-slishkom-nestandartnyj",
     title: "Белого мага, изгнанного из команды героя, подобрал авантюрист ранга S: Этот белый маг слишком нестандартный",
-    image: "https://animego.gg/uploads/posts/2025-07/belogo-maga-izgnannogo-iz-komandy-geroja-podobral-avantjurist-ranga-s-jetot-belyj-mag-slishkom-nestandartnyj.webp",
+    image: "https://pic.rutube.ru/playlist/2025/09/22/ca/2a/5583ee51-97e9-11f0-9640-7a65757ce0d6.jpg",
     rating: { owl: 5, crocodile: 5 },
     episodes: 12,
     progress: {
