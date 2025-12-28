@@ -194,6 +194,7 @@ export const animeList: Anime[] = [
     },
     genres: ["Фантастика", "Мелодрама"],
     description: "Акира ищет свою невесту в мире постапокалипсиса. Аниме режиссёра «Невероятных приключений ДжоДжо»",
+    video: "https://www.kinopoisk.ru/series/9416767/",
   },
   {
     id: "vladyka-ada-v-pechali",

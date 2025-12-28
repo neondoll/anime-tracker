@@ -129,7 +129,7 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, activeRating }) => {
 
         {/* Описание */}
         {anime.description && (
-          <p className="text-gray-400 text-sm line-clamp-2">{anime.description}</p>
+          <p className="text-gray-400 text-sm line-clamp-2 mb-3">{anime.description}</p>
         )}
 
         {/* Ссылка на страницу */}
