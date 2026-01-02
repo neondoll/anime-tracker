@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
-import type { Anime } from "./types/anime";
-import { animeList } from './data/animeList';
-import AnimeList from './components/AnimeList';
+import { type FC, useState } from "react";
 
-const App: React.FC = () => {
+import type { Anime } from "./types/anime";
+import { animeList } from "./data/animeList";
+import AnimeList from "./components/AnimeList";
+
+const App: FC = () => {
   const [animes] = useState<Anime[]>(animeList);
   const [filterStatus, setFilterStatus] = useState<string>('');
   const [activeRating, setActiveRating] = useState<'owl' | 'crocodile'>('owl');

@@ -1,4 +1,5 @@
-import React from "react";
+import type { FC } from "react";
+
 import type { Anime } from "../types/anime";
 
 interface AnimeCardProps {
@@ -6,7 +7,7 @@ interface AnimeCardProps {
   activeRating: 'owl' | 'crocodile';
 }
 
-const AnimeCard: React.FC<AnimeCardProps> = ({ anime, activeRating }) => {
+const AnimeCard: FC<AnimeCardProps> = ({ anime, activeRating }) => {
   const getStatusColor = (status: string) => {
     switch (status) {
       case 'watching': return 'bg-blue-500';
@@ -91,7 +92,7 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, activeRating }) => {
   };
 
   return (
-    <div className="card flex flex-col hover:scale-105 transition-transform duration-200">
+    <div className="card flex flex-col hover:scale-105 transition-transform duration-200" title={anime.title}>
       <div className="relative">
         <img
           src={anime.image}

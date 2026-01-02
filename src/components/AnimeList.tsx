@@ -1,6 +1,7 @@
-import React from 'react';
+import type { FC } from "react";
+
 import type { Anime } from "../types/anime";
-import AnimeCard from './AnimeCard';
+import AnimeCard from "./AnimeCard";
 
 interface AnimeListProps {
   animes: Anime[];
@@ -8,11 +9,7 @@ interface AnimeListProps {
   activeRating: 'owl' | 'crocodile';
 }
 
-const AnimeList: React.FC<AnimeListProps> = ({
-                                               animes,
-                                               filterStatus,
-                                               activeRating
-                                             }) => {
+const AnimeList: FC<AnimeListProps> = ({ animes, filterStatus, activeRating }) => {
   const filteredAnimes = filterStatus
     ? animes.filter(anime => anime.progress[activeRating].status === filterStatus)
     : animes;
