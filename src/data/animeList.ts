@@ -865,6 +865,20 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/711379/",
   },
   {
+    id: "nerazumnyy-angel-v-tantse-s-demonom",
+    title: "Неразумный ангел в танце с демоном",
+    image: "https://pic.rutube.ru/playlist/c62615c4-d4cc-11ef-bc62-02420a000642.png",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Комедия", "Романтика", "Школа"],
+    description: "Масатора Акуцу — демон, прибывший на Землю с миссией найти людей, способных усилить силы Ада в противостоянии с Небесной армией. В школе он знакомится с Лили Аманэ, привлекательной одноклассницей, которая оказывается ангелом, охотящимся на демонов. После их столкновения Лили побеждает Масатору и надевает на него ошейник, заставляющий подчиняться её приказам. Поначалу они видят друг в друге лишь врагов, но со временем их чувства начинают меняться, приводя к неожиданным последствиям.",
+    video: "https://rutube.ru/plst/797522/",
+  },
+  {
     id: "novichok-s-akkauntom-povelitelya",
     title: "Новичок с аккаунтом повелителя",
     image: "https://animegogov.ru/uploads/posts/2025-12/novichok-s-akkauntom-povelitelja.webp",
