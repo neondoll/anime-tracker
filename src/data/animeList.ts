@@ -865,6 +865,19 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/711379/",
   },
   {
+    id: "novichok-s-akkauntom-povelitelya",
+    title: "Новичок с аккаунтом повелителя",
+    image: "https://animegogov.ru/uploads/posts/2025-12/novichok-s-akkauntom-povelitelja.webp",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Городское фэнтези", "Приключения", "Фэнтези", "Экшен"],
+    video: "https://animegogov.ru/7958-novichok-s-akkauntom-povelitelja.html",
+  },
+  {
     id: "novye-vrata",
     title: "Новые врата",
     image: "https://pic.rutube.ru/playlist/8fde7ff6-dcfd-11ef-82bc-02420a00065f.png",
