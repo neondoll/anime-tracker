@@ -971,6 +971,7 @@ export const animeList: Anime[] = [
       crocodile: { watchedEpisodes: 12, status: "completed" },
     },
     genres: [],
+    video: "https://shuumatsu-walkure-jut.su/",
   },
   {
     id: "povest-o-kontse-sveta-2",
@@ -983,6 +984,7 @@ export const animeList: Anime[] = [
       crocodile: { watchedEpisodes: 15, status: "completed" },
     },
     genres: [],
+    video: "https://shuumatsu-walkure-jut.su/",
   },
   {
     id: "povest-o-kontse-sveta-3",
@@ -995,6 +997,7 @@ export const animeList: Anime[] = [
       crocodile: { watchedEpisodes: 15, status: "completed" },
     },
     genres: [],
+    video: "https://shuumatsu-walkure-jut.su/",
   },
   {
     id: "podnyatie-urovnya-v-odinochku",
