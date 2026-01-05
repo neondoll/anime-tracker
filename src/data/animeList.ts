@@ -961,6 +961,42 @@ export const animeList: Anime[] = [
     genres: ["Экшен", "Детектив", "Сверхъестественное", "Триллер"],
   },
   {
+    id: "povest-o-kontse-sveta",
+    title: "Повесть о конце света",
+    image: "https://shuumatsu-walkure-jut.su/img/poster.jpg",
+    rating: { owl: 5, crocodile: 5 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 12, status: "completed" },
+      crocodile: { watchedEpisodes: 12, status: "completed" },
+    },
+    genres: [],
+  },
+  {
+    id: "povest-o-kontse-sveta-2",
+    title: "Повесть о конце света 2",
+    image: "https://shuumatsu-walkure-jut.su/img/poster.jpg",
+    rating: { owl: 5, crocodile: 5 },
+    episodes: 15,
+    progress: {
+      owl: { watchedEpisodes: 15, status: "completed" },
+      crocodile: { watchedEpisodes: 15, status: "completed" },
+    },
+    genres: [],
+  },
+  {
+    id: "povest-o-kontse-sveta-3",
+    title: "Повесть о конце света 3",
+    image: "https://shuumatsu-walkure-jut.su/img/poster.jpg",
+    rating: { owl: 5, crocodile: 5 },
+    episodes: 15,
+    progress: {
+      owl: { watchedEpisodes: 15, status: "completed" },
+      crocodile: { watchedEpisodes: 15, status: "completed" },
+    },
+    genres: [],
+  },
+  {
     id: "podnyatie-urovnya-v-odinochku",
     title: "Поднятие уровня в одиночку",
     image: "https://pic.rutube.ru/playlist/0c49c99f-18a1-11f0-b7bf-3ea53672841e.jpg",
