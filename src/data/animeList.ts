@@ -453,6 +453,20 @@ export const animeList: Anime[] = [
     video: "https://vk.com/video-195384183_456241203",
   },
   {
+    id: "istoriya-imperii-tirmun",
+    title: "История империи Тирмун",
+    image: "https://pic.rutube.ru/playlist/7066e028-e89c-11ef-9880-e6a29fffabf0.jpg",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Фэнтези", "Комедия"],
+    description: "Принцесса Миа Луна, известная своей эгоистичностью, сталкивается с суровой реальностью: после народного восстания она оказывается убитой. Однако судьба предоставляет ей второй шанс — Миа пробуждается в своём двенадцатилетнем теле, сохраняя воспоминания о будущем. Решив избежать прежних ошибок и предотвратить падение империи, она начинает менять своё поведение и окружение. Теперь Миа стремится изменить свою судьбу и судьбу своего народа. Её путь полон испытаний, интриг и неожиданных союзов, но принцесса твёрдо намерена переписать историю Тирмун, превратив её из эгоистичной правительницы в мудрую спасительницу.",
+    video: "https://rutube.ru/plst/847485/",
+  },
+  {
     id: "istoriya-o-sluzhaschem-kotoryy-stal-odnim-iz-chetyreh-nebesnyh-carey-kogda-otpravilsya-v-drugoy-mir",
     title: "История о служащем, который стал одним из четырёх Небесных Царей, когда отправился в другой мир",
     image: "https://pic.rutube.ru/playlist/86d26a8e-db47-11ef-b57a-02420a000365.png",
