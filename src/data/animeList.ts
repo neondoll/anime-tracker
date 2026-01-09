@@ -1347,6 +1347,20 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/7513990/",
   },
   {
+    id: "tomnyy-demon",
+    title: "Тёмный демон",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/10953618/4709eaba-f8d0-45b7-9b3c-6c88fa566717/1920x",
+    rating: { owl: 5, crocodile: 5 },
+    episodes: 24,
+    progress: {
+      owl: { watchedEpisodes: 24, status: "completed" },
+      crocodile: { watchedEpisodes: 24, status: "completed" },
+    },
+    genres: ["Фэнтези", "Боевик", "Детектив"],
+    description: "Потомок демонов решает отомстить убийцам своего отца. Приключенческое аниме с юмором и яркими поединками",
+    video: "https://www.kinopoisk.ru/series/8314105/",
+  },
+  {
     id: "tri-sestry-mikadono-okazalis-neozhidanno-prostymi",
     title: "Три сестры Микадоно оказались неожиданно простыми",
     image: "https://pic.rutube.ru/playlist/2025/07/31/af/81/303e0c09-6de0-11f0-b5a9-966319e8bb57.jpg",
