@@ -725,8 +725,8 @@ export const animeList: Anime[] = [
     rating: { owl: 0, crocodile: 0 },
     episodes: 12,
     progress: {
-      owl: { watchedEpisodes: 0, status: "planned" },
-      crocodile: { watchedEpisodes: 0, status: "planned" },
+      owl: { watchedEpisodes: 0, status: "watching" },
+      crocodile: { watchedEpisodes: 0, status: "watching" },
     },
     genres: ["Фэнтези", "Комедия"],
     description: "Девочка защищает свою семью, используя знания и опыт из прошлой жизни. Аниме в декорациях Средневековья",
