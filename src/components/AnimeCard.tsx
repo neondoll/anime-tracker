@@ -1,10 +1,11 @@
 import type { FC } from "react";
 
 import type { Anime } from "../types/anime";
+import type { Person } from "../types/person";
 
 interface AnimeCardProps {
   anime: Anime;
-  activeRating: 'owl' | 'crocodile';
+  activeRating: Person;
 }
 
 const AnimeCard: FC<AnimeCardProps> = ({ anime, activeRating }) => {
@@ -34,7 +35,7 @@ const AnimeCard: FC<AnimeCardProps> = ({ anime, activeRating }) => {
     return (watchedEpisodes / totalEpisodes) * 100;
   };
 
-  const renderRating = (type: 'owl' | 'crocodile', rating: number) => {
+  const renderRating = (type: Person, rating: number) => {
     const isActive = type === activeRating;
     const icons = {
       owl: '🦉',
@@ -55,7 +56,7 @@ const AnimeCard: FC<AnimeCardProps> = ({ anime, activeRating }) => {
     );
   };
 
-  const renderProgress = (type: 'owl' | 'crocodile', progress: { watchedEpisodes: number; status: string }) => {
+  const renderProgress = (type: Person, progress: { watchedEpisodes: number; status: string }) => {
     const isActive = type === activeRating;
     const icons = {
       owl: '🦉',
@@ -92,14 +93,10 @@ const AnimeCard: FC<AnimeCardProps> = ({ anime, activeRating }) => {
   };
 
   return (
-    <div className="card flex flex-col hover:scale-105 transition-transform duration-200" title={anime.title}>
+    <div className="card flex flex-col transition-transform duration-200 hover:scale-105" title={anime.title}>
       <div className="relative">
-        <img
-          src={anime.image}
-          alt={anime.title}
-          className="w-full h-48 object-cover"
-        />
-        <div className={`absolute top-2 right-2 px-2 py-1 rounded-full text-xs font-bold text-white ${getStatusColor(anime.progress[activeRating].status)}`}>
+        <img alt={anime.title} className="w-full h-48 object-cover" src={anime.image} />
+        <div className={`absolute top-2 right-2 px-2 py-1 text-xs font-bold text-white rounded-full ${getStatusColor(anime.progress[activeRating].status)}`}>
           {getStatusText(anime.progress[activeRating].status)}
         </div>
       </div>

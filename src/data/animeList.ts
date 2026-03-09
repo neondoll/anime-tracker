@@ -1,8 +1,7 @@
 import type { Anime } from "../types/anime";
 
-export const animeList: Anime[] = [
+export const animeList: Omit<Anime, "id">[] = [
   {
-    id: "adskiy-ray",
     title: "Адский рай",
     image: "https://pic.rutube.ru/video/d7/81/d7815e31ebd4359e9f73632523351272.png",
     rating: { owl: 5, crocodile: 5 },
@@ -16,7 +15,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/380646/",
   },
   {
-    id: "adskiy-ray-2",
     title: "Адский рай 2",
     image: "https://pic.rutube.ru/video/d7/81/d7815e31ebd4359e9f73632523351272.png",
     rating: { owl: 0, crocodile: 0 },
@@ -28,7 +26,6 @@ export const animeList: Anime[] = [
     genres: ["Приключения", "Фэнтези", "Боевик"],
   },
   {
-    id: "apokalipsis-minogry-pokorenie-drugogo-mira-nachinaetsya-s-razrushennoy-civilizacii",
     title: "Апокалипсис Миногры: Покорение другого мира начинается с разрушенной цивилизации",
     image: "https://pic.rutube.ru/playlist/2025/07/31/13/5d/57219ade-6e3c-11f0-8255-861ce4882545.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -42,7 +39,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1140792/",
   },
   {
-    id: "arknayts-prelyudiya-k-rassvetu",
     title: "Аркнайтс: Прелюдия к рассвету",
     image: "https://pic.rutubelist.ru/video/20/9b/209b6cab4ba0602c9fe982a66e84ab08.png",
     rating: { owl: 0, crocodile: 0 },
@@ -56,7 +52,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/389665/",
   },
   {
-    id: "belogo-maga-izgnannogo-iz-komandy-geroja-podobral-avantjurist-ranga-s-jetot-belyj-mag-slishkom-nestandartnyj",
     title: "Белого мага, изгнанного из команды героя, подобрал авантюрист ранга S: Этот белый маг слишком нестандартный",
     image: "https://pic.rutube.ru/playlist/2025/09/22/ca/2a/5583ee51-97e9-11f0-9640-7a65757ce0d6.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -70,7 +65,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1211729/",
   },
   {
-    id: "besklassovyj-geroj-da-mne-vse-ravno-ne-nuzhny-jeti-vashi-umenija",
     title: "Бесклассовый герой: Да мне всё равно не нужны эти ваши умения",
     image: "https://pic.rutube.ru/playlist/2025/10/16/45/e1/d5c76a23-aa9c-11f0-8b40-165038ed8a83.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -84,7 +78,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1251801/",
   },
   {
-    id: "blagouhajuschij-cvetok-rascvetaet-s-dostoinstvom",
     title: "Благоухающий цветок расцветает с достоинством",
     image: "https://pic.rutube.ru/playlist/2025/08/06/32/47/2e8dcd5f-72f7-11f0-8531-2269f3dd79c2.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -98,7 +91,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1146866/",
   },
   {
-    id: "boevoy-otryad-polnyy-proval",
     title: "Боевой отряд «Полный провал»",
     image: "https://pic.rutube.ru/playlist/a9c859c3-bfe3-11ef-a946-02420a00031d.png",
     rating: { owl: 5, crocodile: 5 },
@@ -112,7 +104,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/744376/",
   },
   {
-    id: "boevoy-otryad-polnyy-proval-2",
     title: "Боевой отряд «Полный провал» 2",
     image: "https://pic.rutubelist.ru/video/2025-07-09/68/7b/687b568d5521bacb087993a9df73f912.png",
     rating: { owl: 0, crocodile: 0 },
@@ -126,7 +117,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/744376/",
   },
   {
-    id: "vanpanchmen",
     title: "Ванпанчмен",
     image: "https://pic.rutube.ru/playlist/2f0c5882-07ed-11ef-a877-02420a000b18.png",
     rating: { owl: 4, crocodile: 0 },
@@ -140,7 +130,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/401456/",
   },
   {
-    id: "vanpanchmen-2",
     title: "Ванпанчмен 2",
     image: "https://pic.rutube.ru/playlist/2f0c5882-07ed-11ef-a877-02420a000b18.png",
     rating: { owl: 4, crocodile: 0 },
@@ -154,7 +143,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/401456/",
   },
   {
-    id: "vanpanchmen-3",
     title: "Ванпанчмен 3",
     image: "https://pic.rutubelist.ru/video/2025-10-13/79/ca/79ca54e4bc49209c5c0b8a40a34a389d.jpg",
     rating: { owl: 0, crocodile: 2 },
@@ -168,7 +156,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/401456/",
   },
   {
-    id: "vedma-i-chudovische",
     title: "Ведьма и чудовище",
     image: "https://pic.rutube.ru/playlist/9c11a6de-c3bc-11ef-958c-02420a000340.png",
     rating: { owl: 5, crocodile: 3 },
@@ -183,7 +170,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/756522/",
   },
   {
-    id: "vedmnadzor",
     title: "Ведьмнадзор",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/7443c06c-0713-4b51-955e-205131adbeed/1920x",
     rating: { owl: 0, crocodile: 0 },
@@ -197,7 +183,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/7860605/",
   },
   {
-    id: "vedmnadzor-2",
     title: "Ведьмнадзор 2",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/7443c06c-0713-4b51-955e-205131adbeed/1920x",
     rating: { owl: 0, crocodile: 0 },
@@ -211,7 +196,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/7860605/",
   },
   {
-    id: "vechnost-jugurje",
     title: "Вечность Югурэ",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/10853012/a1d9367b-c45b-4352-b239-ca1bbf7fd5b8/1920x",
     rating: { owl: 5, crocodile: 5 },
@@ -225,7 +209,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/9416767/",
   },
   {
-    id: "vladyka-ada-v-pechali",
     title: "Владыка ада в печали",
     image: "https://jut-su.ac/uploads/posts/2025-05/vladyka-ada-v-pechali.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -239,8 +222,7 @@ export const animeList: Anime[] = [
     video: "https://jut-su.ac/1609-vladyka-ada-v-pechali.html",
   },
   {
-    id: "vladyka-ada-v-pechali-2",
-    title: "Bлaдыкa aдa в пeчaли 2",
+    title: "Владыка aдa в печали 2",
     image: "https://jut-su.ac/uploads/posts/2025-05/vladyka-ada-v-pechali-2.jpg",
     rating: { owl: 0, crocodile: 0 },
     episodes: 12,
@@ -253,7 +235,6 @@ export const animeList: Anime[] = [
     video: "https://jut-su.ac/1610-vladyka-ada-v-pechali-2.html",
   },
   {
-    id: "vojti-v-sad",
     title: "Войти в сад",
     image: "https://imgproxy.yani.tv/posters/full/1636788476.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -267,7 +248,6 @@ export const animeList: Anime[] = [
     video: "https://ru.yummyani.me/catalog/item/voyti-v-sad-2025-12-24",
   },
   {
-    id: "vorona-imperatorskogo-garema",
     title: "Ворона императорского гарема",
     image: "https://pic.rutube.ru/video/fa/c4/fac45593eeb414eb15dd209a2dd750a7.png",
     rating: { owl: 5, crocodile: 0 },
@@ -281,7 +261,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/400085/",
   },
   {
-    id: "vremya-pytok-princessa",
     title: "Время пыток, принцесса!",
     image: "https://pic.rutube.ru/playlist/9d7f168a-3622-11f0-baf2-de499829630b.jpg",
     rating: { owl: 0, crocodile: 1 },
@@ -295,7 +274,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1038092/",
   },
   {
-    id: "gachiakuta",
     title: "Гачиакута",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/10809116/978904f6-0f44-4a6f-8081-84eab2a8252c/1920x",
     rating: { owl: 5, crocodile: 5 },
@@ -309,7 +287,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/7524629/",
   },
   {
-    id: "genialnyy-celitel-kotoryy-iscelyal-v-odno-mgnovenie-no-byl-izgnan-kak-bespoleznyy-teper-naslazhdaetsya-zhiznyu-v-kachestve-temnogo-celitelya",
     title: "Гениальный целитель, который исцелял в одно мгновение, но был изгнан как бесполезный, теперь наслаждается жизнью в качестве тёмного целителя",
     image: "https://pic.rutube.ru/playlist/e8f1b03c-1c71-11f0-a273-622aa4e6da40.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -323,7 +300,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/945552/",
   },
   {
-    id: "geroj-mertv",
     title: "Герой мёртв!",
     image: "https://pic.rutube.ru/playlist/71f63739-c0ad-11ef-9e2b-02420a000318.png",
     rating: { owl: 0, crocodile: 0 },
@@ -337,7 +313,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/746716/",
   },
   {
-    id: "grimgal-pepla-i-illyuziy",
     title: "Гримгал пепла и иллюзий",
     image: "https://pic.rutube.ru/video/99/0f/990f8bc8c74dd51d5fb438cc29bedc41.png",
     rating: { owl: 0, crocodile: 0 },
@@ -351,7 +326,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/403872/",
   },
   {
-    id: "doversya-mne",
     title: "Доверься мне",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/6fe3344c-fbfc-4c9a-81ee-a163a2c3a545/1920x",
     rating: { owl: 5, crocodile: 0 },
@@ -365,7 +339,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/4769522/",
   },
   {
-    id: "doversya-mne-2",
     title: "Доверься мне 2",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/6fe3344c-fbfc-4c9a-81ee-a163a2c3a545/1920x",
     rating: { owl: 5, crocodile: 0 },
@@ -379,7 +352,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/4769522/",
   },
   {
-    id: "dozhd-i-ty",
     title: "Дождь и ты",
     image: "https://pic.rutube.ru/playlist/2025/07/15/29/71/b0c875bc-61ba-11f0-9e7a-da1868a49a00.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -393,7 +365,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1123841/",
   },
   {
-    id: "domashniy-pitomec-inogda-sidyaschiy-na-moey-golove",
     title: "Домашний питомец, иногда сидящий на моей голове",
     image: "https://pic.rutube.ru/playlist/9aaf7c30-a80b-11ef-bb0f-02420a000b1d.png",
     rating: { owl: 0, crocodile: 0 },
@@ -407,7 +378,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/700562/",
   },
   {
-    id: "domashniy-repetitor-gertsogini",
     title: "Домашний репетитор герцогини",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/bfc4dba4-2e88-4695-b293-b2f3da8b33d6/1920x",
     rating: { owl: 0, crocodile: 0 },
@@ -421,7 +391,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/8308433/",
   },
   {
-    id: "drakon-radzha",
     title: "Дракон Раджа",
     image: "https://dragon-raja-jut.su/img/desc.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -435,7 +404,6 @@ export const animeList: Anime[] = [
     video: "https://dragon-raja-jut.su/",
   },
   {
-    id: "drakon-radzha-2",
     title: "Дракон Раджа 2",
     image: "https://dragon-raja-jut.su/img/desc.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -449,7 +417,6 @@ export const animeList: Anime[] = [
     video: "https://dragon-raja-jut.su/",
   },
   {
-    id: "zhizn-molodogo-gospodina",
     title: "Жизнь молодого господина",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/3e6925b3-8e30-4167-882a-aaa98b203859/1920x",
     rating: { owl: 5, crocodile: 0 },
@@ -463,7 +430,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/6267136/",
   },
   {
-    id: "zhurnal-mononoke-avtor-tyudzendzi",
     title: "Журнал мононокэ, автор Тюдзэндзи",
     image: "https://pic.rutube.ru/playlist/2025/06/14/04/ef/ef686ae0-4946-11f0-9e57-6a7a417e8bf1.jpg",
     rating: { owl: 5, crocodile: 0 },
@@ -477,7 +443,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1082531/",
   },
   {
-    id: "zapisi-o-semi-lordakh",
     title: "Записи о семи лордах",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/e21f9d61-d8a6-4709-97b8-c60fdafe811e/1920x",
     rating: { owl: 5, crocodile: 0 },
@@ -491,7 +456,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/6222123/",
   },
   {
-    id: "zapreschennyy-krot",
     title: "Запрещенный Крот",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/3ff2db55-27e5-46d6-a846-e5642b899f19/1920x",
     rating: { owl: 0, crocodile: 0 },
@@ -505,7 +469,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/8308094/",
   },
   {
-    id: "inuyasiki",
     title: "Инуясики",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/a0f3be0f-1734-49c5-a95f-e016277f120e/1920x",
     rating: { owl: 5, crocodile: 5 },
@@ -523,7 +486,6 @@ export const animeList: Anime[] = [
     video: "https://vkvideo.ru/video-44774345_456239401",
   },
   {
-    id: "istinnaya-krasota",
     title: "Истинная красота",
     image: "https://files.itv.uz/uploads/content/poster/2024/09/14/f0c9b8650cc6bf689e629a7b4ce7ea9b-q-700x1002.jpeg",
     rating: { owl: 0, crocodile: 0 },
@@ -537,7 +499,6 @@ export const animeList: Anime[] = [
     video: "https://vk.com/video-195384183_456241203",
   },
   {
-    id: "istoriya-imperii-tirmun",
     title: "История империи Тирмун",
     image: "https://pic.rutube.ru/playlist/7066e028-e89c-11ef-9880-e6a29fffabf0.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -551,7 +512,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/847485/",
   },
   {
-    id: "istoriya-o-sluzhaschem-kotoryy-stal-odnim-iz-chetyreh-nebesnyh-carey-kogda-otpravilsya-v-drugoy-mir",
     title: "История о служащем, который стал одним из четырёх Небесных Царей, когда отправился в другой мир",
     image: "https://pic.rutube.ru/playlist/86d26a8e-db47-11ef-b57a-02420a000365.png",
     rating: { owl: 5, crocodile: 5 },
@@ -565,7 +525,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/814012/",
   },
   {
-    id: "istrebitel-demonov-beskonechnaya-krepost",
     title: "Истребитель демонов: Бесконечная крепость",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/16490236/13d52d1b-708c-4fc9-a604-4b97ce63126c/1920x",
     rating: { owl: 5, crocodile: 5 },
@@ -579,7 +538,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/video/7a761440c5633d18cc0d691cf3d18160/?r=wd",
   },
   {
-    id: "kaydzyu-nomer-vosem",
     title: "Кайдзю номер восемь",
     image: "https://pic.rutube.ru/playlist/557b5cf4-8046-11ef-8594-02420a000713.png",
     rating: { owl: 5, crocodile: 5 },
@@ -593,7 +551,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/609688/",
   },
   {
-    id: "kaydzyu-nomer-vosem-2",
     title: "Кайдзю номер восемь 2",
     image: "https://pic.rutubelist.ru/video/2025-07-11/fa/24/fa244cbe017c9b5cc1341148b62452de.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -607,7 +564,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/609688/",
   },
   {
-    id: "karta-detektiva-takao-ameku",
     title: "Карта детектива Такао Амэку",
     image: "https://pic.rutube.ru/playlist/f01fc041-d046-11ef-a411-02420a000637.png",
     rating: { owl: 5, crocodile: 0 },
@@ -621,7 +577,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/785997/",
   },
   {
-    id: "klevatess-korol-demonicheskih-zverey-mladenec-i-geroy-nezhit",
     title: "Клеватесс: Король демонических зверей, младенец и герой-нежить",
     image: "https://pic.rutube.ru/playlist/2025/07/16/f6/86/3f63d5ec-627f-11f0-884b-423ad03148d7.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -635,7 +590,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1125041/",
   },
   {
-    id: "klevatess-korol-demonicheskih-zverey-mladenec-i-geroy-nezhit-2",
     title: "Клеватесс: Король демонических зверей, младенец и герой-нежить 2",
     image: "https://pic.rutube.ru/playlist/2025/07/16/f6/86/3f63d5ec-627f-11f0-884b-423ad03148d7.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -647,7 +601,6 @@ export const animeList: Anime[] = [
     genres: ["Фэнтези", "Экшен"],
   },
   {
-    id: "klinok-zla",
     title: "Клинок зла",
     image: "https://pic.rutube.ru/playlist/331ed70c-1a32-11f0-8a82-3eed5e956d4a.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -661,7 +614,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/941582/",
   },
   {
-    id: "krasavchiki-detektivy",
     title: "Красавчики-детективы",
     image: "https://pic.rutube.ru/playlist/ac5cc16b-d1a5-11ef-96f0-02420a000603.png",
     rating: { owl: 5, crocodile: 0 },
@@ -675,7 +627,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/789387/",
   },
   {
-    id: "legenda-o-legendarnykh-geroyakh",
     title: "Легенда о легендарных героях",
     image: "https://pic.rutube.ru/playlist/873a0e77-9a3d-11ef-9f6d-02420a00024d.png",
     rating: { owl: 0, crocodile: 0 },
@@ -689,7 +640,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/672014/",
   },
   {
-    id: "legendarnyye-bratya",
     title: "Легендарные братья",
     image: "https://kinopoisk-ru.clstorage.net/A1qS67101/817de5hndZ/THDJ33Q04InBPvk8D7ko4-5DpSnfFt5sLf0DVcKPoD2tMaPqmmhGQbwsHUCPCA6sQFIA6-zoBl9ab4Am_cw9XlsjjdtnIa3WkCnmal3nfP6iWPsT9Hj4SwafPmjx6d956nG5scI3BgOydV4bkUpKyidHctqpkxtsJAinU9X-O2hjderrfx69ksEkkgMGujbL1TiDO8Zh3nsunytL_cvYeNJq2ZbZIyM8mEtPPP5vV_o0N3LlmaANeyM9sF3y7ypTQ3L31GArl5DAHa8OJa8L6dkgigvycPpcKYkVW9j2-3TIb92f2RMhF4VlRjbNUHzMGg104ZeeA0g6O79L-8ssWnlGzdxSFr2p0je0Kz-fB_T3PKE13V79UDGBPUTs9MJb3HDnqfMODAS1RlUY9kx2_gohYdmgmTtbDDekcNLiMUBYR-vmahC_suYuoCY2ojzr0ya8INlhwFwTuh1b4c_eT9Zi7aDDPSI0rHtdHNdbcO0OJmPru6ksfQAdkFzpwgx0VXv4-nM2nK_wK7kOJaQF3voYjQvxd_9FELMuZubR1ELaavGb3ComNJVoTzL2elvzKg9LxpC8J28ILaNC9uMvV21F7MRsI4WN8CW-IRajHMvRPqkE5l_XYjOKPUvb2sBYz17Rs9kXHxWyXUgD91Jq3BYiQ9mSogtWKAyIfeHQPElZZ97HZA2ikc0Vnws-nSPJ5yaSJsBjz0UauQZJ1Mrgd89z3J7mIAcllFJPNtF9aeYKInjNupMEdzsNnnns_hlCYlncy0wqm4X2PYUEGK45_tUorRriTMlMMIcNdM_j1nT6SPG7xx8gAZVaZhTZWXfBLyh855e-N1s8L5R71sQKb05I6cRsEI-1yA-YNyGCNuHDB5oG03bLQj6hIm3nyMhr8GDSmf0DIyK6fnwezXJazB4hVN-IpghXAT-UQ_zaLFBcUNb3Sym8k-08nScHngDW4yelGupt-1gLpB9t9_Xmb8pExrXFEA4prm9CJPJMeOQLMnHQubMIUgQHn3XM_A5tS1PTxmosu7TJGp8fC7MHx9c_nzXyeNxKF5EaQs7J1WPrct-o4Q0wNJRudDHZQUXUEzZwzpurLGoOPLJVz_kVQFhixP1wMZy-wiuDNQCePMn1FYUL72ztTDS8H1vi7ddL72TdkPkwLT-OaHg--Vdw3jcIXMSOlzBfBQ2HUM_MMFR-a_jvRyCcldwhsDYAhi_e3g-oJtpY1mwxpipJ-MLYdN9J8pzCCC8BsVNbMcV-bd8AK3H9t7kWfRgxlVj0wRtWS1L5zWQquovML4YxJoch4fEAmw3oYfxZM6IDSfTt9U3fUNKZ_TwqIqVpfzvuVnTzOwNq2bK1I2kuLop528gcdk5G_-xsKqym7QOPJweTBevkJog9wUPcQR6KLlnFz9521lDuuM8oLzWHaWM35VZuxDAGScaJgSxZGD2iQuzHHHtgftP_cjacquo0ggQ7hg3D1TqGFOF48lMalzhS7NHVaORK3YjTIAQejE96IfxWSuAQPUTYspkQbiYoonz0zihaXmLQ8nIKgJD0Gb8HC5YryPUAqDbAatNMKKY9aPDx2GLXRNyL4DcPGrd1TBnWYU_jLhJG4KqTLnk4NYlm4NACdE9G1cRsC6qL5AeCDwu2OcLgCrwo4nHJcyGgJ0TX6cls11b0vPIaBSC1f1sy535H5B0uUsuquTd2PxyUdtr_M31cXtfURDGepcY9uxIKsTzX8ySxOtJz22EIlCJC18L_YvtO-b_nFRAYll9lCPRaaeARPVD7orQ2UxwroGfo_yBeVnv_1149jIzANbIxD60_7uM9uT_Ae-BNLaUlUN_R33zScfWeyj4sFY1rWRbmWlHbOjV845efKFQINqRj98sfbVVf6s1vCbeKyCuUKDeeIPD1PJkc83TTeg2gHEPm7dZa2lz5rMQPJTyoSUspxXdT1zUGYO-_gzBsCCaQXtH-F2hNcv_YYDe9s_cDtScPpgbNxx6_Pfxu1GoyggFywe7ed8RS_rT5EAoWqmtXH9Vfa-UaBHTQjKUNciQrrFbQ_i15aEjP_W8kuIP2CZIXIKYZxPMssTTbUN5_N6EuSNHC_kvZd9KW8xAjO5Z3VCr-Yk__Ngxw6oy1DH8lJIJd4MUhdWl589pwLK2p6AWZNyeBKMHzJqoLz07reTCmPHLB6NZDxFbvi9gVABapRWUVzF992wsSfPiIljd7DSaKd-jFEVNucNPrVBanscodowsCsjbP4AizPuVM2n41mARE2Mv4Wu1H_IrAGx8EtFpmOOZUdsApFlDMgKEwQxgxtnHQ7TRuUH7byEM0j4bzFb42H70F3vcEviLycM1qKoYWZOHO6Uv6Vv-y6RY6PodoSiTdfnDzES9j-bWdN0MeFYtx6PMPU194zfx8KoaTxAOuLh68HeHhL40-ynHUexqGOlX02MV7yU_7rtEBBSWfe3oE70JHxBYtet28vxZ9GBSjUczCHF90QcrbfyqPos4-pQ02uxTh0QOuKslu10sPpyFb8trGdvVM_7bAPR8fim9nOfxLUsYVC2PCoYESUA0LtFrezh1wV1j73EQkuqvSFbAIH78r6fAHujraU_pjOogvdsbH-EnLVtOqzDItFpFaTxrvbmn0PxBe45q_D1YRLZN_990pTGpn3t1DLreMwQCiBga4I_fELqIUwmz7YgqSDkTe6eFGyUrviuUcKjSaU2YB8WxU9i8JWu6wsDhVPDyic87OC1N-ZvroagyejMEbpS0DmQnD-iabBsNT2l8wuR175Nrgetlx5ILONg8GlnZ7JPxsWMUUKWHhr6U3aAAXll3ezjFpQGTlzFwjr5HSPYEqK5sO9s4KjwXIQdZGF6QVR87X2V3sVcC25TgCO4tMRDL4fE3GEBFX2LCAFlIiBqJA3sU6b3hd9cpzJZiF9i-4Jwy9K-LuCb4c_mzpQTGIGmXl8OVs9VDbteUqASmnbGEE9khq1iwvVdidmw1YMys",
     rating: { owl: 5, crocodile: 0 },
@@ -703,7 +653,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/5332799/",
   },
   {
-    id: "ledyanye-kosti",
     title: "Ледяные кости",
     image: "https://pic.rutube.ru/playlist/2025/06/17/87/7e/599a31a9-4b26-11f0-ba49-36ec9b2491c6.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -717,7 +666,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1085253/",
   },
   {
-    id: "lozhnyye-vyvody",
     title: "Ложные выводы",
     image: "https://pic.rutube.ru/playlist/ddbe99f1-7bf7-11ef-a5a3-02420a000b43.png",
     rating: { owl: 0, crocodile: 0 },
@@ -731,7 +679,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/597551/",
   },
   {
-    id: "lozhnyye-vyvody-2-sezon",
     title: "Ложные выводы 2 сезон",
     image: "https://pic.rutubelist.ru/video/2024-09-26/e0/e0/e0e01db056ae9b38e5116f011637368b.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -745,7 +692,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/597551/",
   },
   {
-    id: "lyubov-skvoz-steny",
     title: "Любовь сквозь стены",
     image: "https://jut-suu.xyz/uploads/posts/2025-10/ccb3a2db85_peresechenie-sten-ljubvi-s-toboj.webp",
     rating: { owl: 0, crocodile: 0 },
@@ -761,7 +707,6 @@ export const animeList: Anime[] = [
     video: "https://jut-suu.xyz/anime/2003-peresechenie-sten-ljubvi-s-toboj.html",
   },
   {
-    id: "mag-vody",
     title: "Маг воды",
     image: "https://pic.rutube.ru/playlist/2025/07/30/8b/7a/2dd3088a-6d74-11f0-ad2b-ae89d4e8c657.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -775,7 +720,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1138869/",
   },
   {
-    id: "magicheskaya-revolyutsiya-pererozhdonnoy-printsessy-i-genialnoy-yunoy-ledi",
     title: "Магическая революция перерождённой принцессы и гениальной юной леди",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4716873/2f5a87bb-339c-4c7e-91cd-56da6a1cb6c2/1920x",
     rating: { owl: 0, crocodile: 0 },
@@ -789,7 +733,6 @@ export const animeList: Anime[] = [
     video: "https://vkvideo.ru/playlist/-185087421_363",
   },
   {
-    id: "migi-i-dali",
     title: "Миги и Дали",
     image: "https://pic.rutube.ru/playlist/9a6a8c5d-e0d6-11ef-875a-02420a000664.png",
     rating: { owl: 5, crocodile: 0 },
@@ -803,7 +746,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/828620/",
   },
   {
-    id: "mogu-ja-poprosit-esche-koe-chto",
     title: "Могу я попросить ещё кое-что?",
     image: "https://pic.rutube.ru/playlist/2025/10/10/ae/8c/bc95ebda-a5d2-11f0-92ac-4658ae16d49f.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -817,7 +759,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1243211/",
   },
   {
-    id: "moj-otec-geroj-moja-mat-duh-a-ja-pererozhdennaja-ih-docherju",
     title: "Мой отец — герой, моя мать — дух, а я переродилась их дочерью",
     image: "https://kinopoisk-ru.clstorage.net/pQ1w55173/4139b9eM/YjlB7JPX6VuBmOvjPOPvFBVRJJ2fCpSF0HVNpX5Mqjizcf7LfzbhGYjB5I2BSQGRmlqjAMy1RaJ1nLssaHfzKMd9Ia2Gw11vJD3qh-mGyvFUheUofKgiZ7IH-4atn5xfRyUKuhoDBM2M4QEZtPjltdw8xxRdpkHxgoiqeWwyAeqDewMfMoe4DPA6SGbv8Y2H15GCvQw5MyUg1HtGnly_TVdXOTxq8rTNzMFSmJVfRITOXnE03UUjwJPruSueU_B4gxmwrqKW-y7BiFgWjhKM1cYgYB78OVDk8YaaF99NrN3WpIsd6mL0vA3wowkHLuRU_F2jlz-kU8JCG8p5T4HhCHDoUY9DVcv-84vr11xgnHYVQnNdP8iDFAAUWDW8jw9fBAf77XvClEwNcbCrhA6kBF0fc-efhUIhcDi5Gb0RUtjwaADOQeWoLAAIiKSds42XZ4Gx_4xqcSbDJSmUL07d_VYWaZ4aMRTsbHEBeZc_V9ePXkH23bWxoxPa6fuN4lGIYKiBH4OVauzBGihHjVMsd1RwcV9dqpK0AbbrVb_szrzUNmluecCGTm8wgzmWfWWE7W2AtR-VAtJQKrmrLsGR-YLq4K6AZEodIkoKp-xwrMQnMNIdb-qgxwLGGSfsPw6e9yZY_KpilI2vwzPqB32GR6_eIbeOZUBicOn72swRk-rzetFvAXdZDkA6iMXOMQ2HNfLTfWz5oDeRhrr178-trLY0KW56QKRdnMMxaGSMJmXNHCC0PfYy0QO7STj_0vGKs2uhH1Dlu81DO8jHb5KPl9RTIQ7f-4A2omcaR14vTD0WxXpuGCEXHiyh4BnlPYQWHv8hVF5HctARyyj77tNjiKDZsN8yVCg_EXk5RM9jv8R2MBL-LMjBFrOlCGYNvK1v9LTo77mABgzfIpNo9A11tk7Pk5UeRGDAYBm4S4xh0emSerPMcRRpPaG5uJTec1yUlHCST1x44kfjFYp2nq68rOUkmy6486VNL0FTCmS9N-TPniP2TLWS0QPYiGs8I8L5o4pw7JBUKc7BGuq07fBd5hSj0e2_uYMlUmYp5R3_T9-Et1k_WiL0HS9A05pnH4c0rZ-SVF1HINDjyZlZLVIRCkCpI-8h5EtO4XjJxU_z36YEMcBdzirABSI2S6f9jOx9RPQoj6vS1S8tsGG6By7G1fxsAffOhTDTQLtqKe0xoHqDuXHt8vZ5zOGY6ZdNstxWRWIBDw35ARTQRktUH-3MjRT36K-4gTdMLJGx6dZs1wQebDPHvVZRsWLbyhm8UWIrozmyzJBUWX1RWcikrWMN5kQykUxO-7JX0Bd6106vX78FV-u_aHMXT2zgsXmELLTV7WwRVi33kEIwW5mJLBNCGQBrIs5ApGjOMDoqRe2RXJYnYoBNzTkDFRFWKeXNb0xt1TRL7Wvipv4dIXF4dC1HFm9ec-QuJkKzgZiLi73CM5ig-HOfcySIzdPaOmS9wa3FxXIB3l17cXXxtxuHzB7_jbQ1KW2ZofTv3oLy6lT8lFZtb-NVz4WgwIJ56Emfw4HoMAmBvINkGj2DGOo2z_Fd1VWB8p8PKMKG4QTJpp9_Pg4l9ts86TGnL76jEarU_sSHnv4ihGwl0kCgO1tZ3CPQejI6wpzzB6ovQ6mYNe2CzQXH8jDdjRngZQM0-TXfb7-NRQZJ_XoAlOxvwbIbhXzWRAyekfdMtMATsrlIaewxYcmCybOuwEQoDBJI6iW_YIy2p6ICPz3qsCSDNRpGL4_-XCUVap3KEIevTZDwClauJce-bmGHboZx0GE4Kyq8Q4PZwolDD2Pm2A9SystXrBEPVWWDsizdG6N0k0R5l-6Orf9WZkq-67CHL45zsAkEzBT1vu1SZ5yUMqMSWPpbrTOyetFacU9hpFsNgNqapI4SXFVHocNvr5mR9tNFGTe_v2yNNtZZHFgRBh1tgOE5ll2WZ7xvYQVPVmOhYoq6OF5gcguCOFFfs4RoPaEJ-aVO4ez0FiEBP-9rYAdQlajlHBy8voR26exZ0XSd3uJxWnb_pPUPf7HELnTDwoGrqAhcAmMbAqgBjNLGGn7hiMpE7vFdpSZCkJ8dilDnkFYYNA6sjg_W9umuO_K2bv9BMajWX3ZnDf1htw1XshBCGphKj_BCGaJbgd2jJgq-U4g4VH1TT-cH4DIuT_uQ1SJkKHddbTwcBjTIv5iiNXz90TP7Fg1lhu0dYoUM5jBwQMvqeQ3ykTjgaDF8UsWpL9Ob-cTPQ41mJVJh__4qcMUwlxuVT93O7NY2Ws4rs_StHWFh-CUclIWdvnFFnaYjgRGZGxnM0lGYQmuBn2GlyV3xGrmFHbMPVmWD0r9v-YFHUuToB3xvz612lPku6ILW7-5zQKo3Hsf07E5QV4xGEYGCaZvJv3LTqLEakq5QRPlcQ6r4tozyjHTkAvAN3fvh54NlS0b_Xf7v5ca6jHqixn9fYvPpFx1kdx0_UJQPlYGi0TnZ659icfrQqtDMkXR5T1O6-cbNoO729WGDfZ7b4DTihXmXX6z_3yRkm-wI4zZNTnFDCqS_poTNHEI37EZgAGAay_kewuFLw6pRrIE1ukxSWfiXj7FMVtVAIF3cC4Dnk2dpJXyNfjz39Pv_WvDG_4zisfjEjjW3_d2ChM4Hk6CA2ZmpbnJDycDZsF2C9JoNQBrKla0DbxbHwAKOPwsCpKNmuif93U-9RRcZ3qhB5b8e8FDZ5KyG1B6twyVP9WCg4fnbGu-ho1jBKnKvAWSbLcHaC5Re4Q-GJVJD7z0o83fSt5skLU797dS3Omwo8TTPHTKB2rXuZgbtjeHE_HZSctAK2wtfM1J7wgrw_RBl6F_xOniGvmF9xXYi4uwMKnEG0FUrJSx8jLwkhjkOuAEmjP9zchunTIek_f1QBW3FEEEy2_spPmBxKeMLYs0xJ6rPUTm4ZV0C3uV0Y_H9TFpCZ8Jm-8csPWxOlJXZLCogFI49opHJpp6WdF88sYXeJtJRQSmp0",
     rating: { owl: 5, crocodile: 3 },
@@ -831,7 +772,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/9271160/?ysclid=mjw26772kx822312011",
   },
   {
-    id: "moj-status-ubijcy-ochevidno-prevoshodit-gerojskij",
     title: "Мой статус убийцы очевидно превосходит геройский",
     image: "https://pic.rutube.ru/playlist/2025/10/13/b9/55/b44ede52-a7f2-11f0-a65a-8e3bbf5d3e66.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -845,7 +785,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1246884/",
   },
   {
-    id: "moy-schastlivyy-brak",
     title: "Мой счастливый брак",
     image: "https://pic.rutube.ru/playlist/b693a9ef-9a0b-11ef-b4e1-02420a000b2f.png",
     rating: { owl: 5, crocodile: 0 },
@@ -859,7 +798,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/671589/",
   },
   {
-    id: "moy-schastlivyy-brak-2",
     title: "Мой счастливый брак 2",
     image: "https://pic.rutubelist.ru/video/2025-04-21/c7/79/c7791f7e807d8a3e6656cf5c15ef0d08.png",
     rating: { owl: 5, crocodile: 0 },
@@ -873,7 +811,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/671589/",
   },
   {
-    id: "monolog-farmacevta",
     title: "Монолог фармацевта",
     image: "https://pic.rutube.ru/playlist/f36e2ff8-dbfa-11ef-9a65-02420a000647.jpg",
     rating: { owl: 5, crocodile: 0 },
@@ -887,7 +824,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/585806/",
   },
   {
-    id: "monolog-farmacevta-2",
     title: "Монолог фармацевта 2",
     image: "https://pic.rutubelist.ru/video/2025-01-26/a5/67/a5673693b4aa94ea3178abd0bd75c0b3.jpg",
     rating: { owl: 5, crocodile: 0 },
@@ -901,7 +837,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/585806/",
   },
   {
-    id: "na-jetot-raz-oderzhi-pobedu-nad-imperatorom-drakonov-blagorodnaja-devushka",
     title: "На этот раз одержи победу над императором драконов, благородная девушка!",
     image: "https://pic.rutube.ru/playlist/13c184b5-bff9-11ef-8f7f-02420a00031f.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -915,7 +850,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/744489/",
   },
   {
-    id: "nezhelanno-bessmertnyy-avantyurist",
     title: "Нежеланно бессмертный авантюрист",
     image: "https://pic.rutube.ru/video/ff/86/ff8666c0ff59fc876deb9fa2f6fc3479.png",
     rating: { owl: 5, crocodile: 5 },
@@ -935,7 +869,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/385791/",
   },
   {
-    id: "nezhit-i-neudacha",
     title: "Нежить и Неудача",
     image: "https://pic.rutube.ru/playlist/8c85d5a4-9604-11ef-b075-02420a000245.png",
     rating: { owl: 5, crocodile: 5 },
@@ -949,7 +882,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/662601/",
   },
   {
-    id: "neznakomcy-v-drugoy-zhizni",
     title: "Незнакомцы в другой жизни",
     image: "https://pic.rutube.ru/playlist/86628276-a6bf-11ef-a0b5-02420a000b1a.png",
     rating: { owl: 0, crocodile: 0 },
@@ -963,7 +895,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/698215/",
   },
   {
-    id: "nenasytnyy-berserk",
     title: "Ненасытный Берсерк",
     image: "https://pic.rutube.ru/playlist/e059a38e-ae5c-11ef-a0ca-02420a000303.png",
     rating: { owl: 0, crocodile: 0 },
@@ -977,7 +908,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/711379/",
   },
   {
-    id: "nerazumnyy-angel-v-tantse-s-demonom",
     title: "Неразумный ангел в танце с демоном",
     image: "https://pic.rutube.ru/playlist/c62615c4-d4cc-11ef-bc62-02420a000642.png",
     rating: { owl: 0, crocodile: 0 },
@@ -991,7 +921,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/797522/",
   },
   {
-    id: "novichok-s-akkauntom-povelitelya",
     title: "Новичок с аккаунтом повелителя",
     image: "https://animegogov.ru/uploads/posts/2025-12/novichok-s-akkauntom-povelitelja.webp",
     rating: { owl: 0, crocodile: 0 },
@@ -1004,7 +933,6 @@ export const animeList: Anime[] = [
     video: "https://animegogov.ru/7958-novichok-s-akkauntom-povelitelja.html",
   },
   {
-    id: "novye-vrata",
     title: "Новые врата",
     image: "https://pic.rutube.ru/playlist/8fde7ff6-dcfd-11ef-82bc-02420a00065f.png",
     rating: { owl: 0, crocodile: 0 },
@@ -1018,7 +946,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/818990/",
   },
   {
-    id: "odnazhdy-ya-stala-princessoy",
     title: "Однажды я стала принцессой",
     image: "https://pic.rutube.ru/playlist/2025/12/26/4b/32/de14751d-e264-11f0-910a-86050d30a480.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1032,7 +959,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1378865/",
   },
   {
-    id: "ona-mnogo-let-ne-byla-glavnoy-geroiney",
     title: "Она много лет не была главной героиней",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/82672236-cce8-46da-9276-62fca4852569/1920x",
     rating: { owl: 5, crocodile: 0 },
@@ -1046,7 +972,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/5297125/",
   },
   {
-    id: "ot-prostogo-cheloveka-do-geroya-razvedchika",
     title: "От простого человека до героя-разведчика",
     image: "https://animego.me/upload/anime/images/6682ad3d4feaa085633496.jpg",
     rating: { owl: 4, crocodile: 5 },
@@ -1060,7 +985,45 @@ export const animeList: Anime[] = [
     video: "https://vk.com/video-195384183_456241129",
   },
   {
-    id: "platinovyy-predel",
+    title: "Пламенная бригада пожарных",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/07ce16a1-9b99-463f-9001-5dc518564461/1920x",
+    rating: { owl: 5, crocodile: 5 },
+    episodes: 24,
+    progress: {
+      owl: { watchedEpisodes: 24, status: "completed" },
+      crocodile: { watchedEpisodes: 24, status: "completed" },
+    },
+    genres: ["Боевик", "Детектив", "Фэнтези"],
+    description: "Юноша вступает в отряд, который защищает Токио от инфернальных существ. Огненное аниме с детективной линией",
+    video: "https://www.kinopoisk.ru/series/1235054/",
+  },
+  {
+    title: "Пламенная бригада пожарных 2",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/07ce16a1-9b99-463f-9001-5dc518564461/1920x",
+    rating: { owl: 5, crocodile: 5 },
+    episodes: 24,
+    progress: {
+      owl: { watchedEpisodes: 24, status: "completed" },
+      crocodile: { watchedEpisodes: 24, status: "completed" },
+    },
+    genres: ["Боевик", "Детектив", "Фэнтези"],
+    description: "Юноша вступает в отряд, который защищает Токио от инфернальных существ. Огненное аниме с детективной линией",
+    video: "https://www.kinopoisk.ru/series/1235054/",
+  },
+  {
+    title: "Пламенная бригада пожарных 3",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/07ce16a1-9b99-463f-9001-5dc518564461/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 25,
+    progress: {
+      owl: { watchedEpisodes: 21, status: "watching" },
+      crocodile: { watchedEpisodes: 21, status: "watching" },
+    },
+    genres: ["Боевик", "Детектив", "Фэнтези"],
+    description: "Юноша вступает в отряд, который защищает Токио от инфернальных существ. Огненное аниме с детективной линией",
+    video: "https://www.kinopoisk.ru/series/1235054/",
+  },
+  {
     title: "Платиновый предел",
     image: "https://pic.rutube.ru/playlist/6d520cc3-7e8c-11ef-9fcd-02420a00020f.png",
     rating: { owl: 5, crocodile: 5 },
@@ -1074,7 +1037,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/604272/",
   },
   {
-    id: "povelitel-demonov-2099",
     title: "Повелитель демонов 2099",
     image: "https://pic.rutube.ru/playlist/06582aa6-c12d-11ef-9bb2-02420a00031e.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -1088,7 +1050,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/748012/",
   },
   {
-    id: "povelitel-tajn-kloun",
     title: "Повелитель тайн: Клоун",
     image: "https://pic.rutube.ru/playlist/2025/07/20/12/0d/8fcc40ee-6570-11f0-8b08-ea22387c56f5.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -1102,7 +1063,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1128867/",
   },
   {
-    id: "povelitel-tajn-kloun-2",
     title: "Повелитель тайн: Клоун 2",
     image: "https://pic.rutube.ru/playlist/2025/07/20/12/0d/8fcc40ee-6570-11f0-8b08-ea22387c56f5.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1114,7 +1074,6 @@ export const animeList: Anime[] = [
     genres: ["Экшен", "Детектив", "Сверхъестественное", "Триллер"],
   },
   {
-    id: "povest-o-kontse-sveta",
     title: "Повесть о конце света",
     image: "https://shuumatsu-walkure-jut.su/img/poster.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -1127,7 +1086,6 @@ export const animeList: Anime[] = [
     video: "https://shuumatsu-walkure-jut.su/",
   },
   {
-    id: "povest-o-kontse-sveta-2",
     title: "Повесть о конце света 2",
     image: "https://shuumatsu-walkure-jut.su/img/poster.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -1140,7 +1098,6 @@ export const animeList: Anime[] = [
     video: "https://shuumatsu-walkure-jut.su/",
   },
   {
-    id: "povest-o-kontse-sveta-3",
     title: "Повесть о конце света 3",
     image: "https://shuumatsu-walkure-jut.su/img/poster.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -1153,7 +1110,6 @@ export const animeList: Anime[] = [
     video: "https://shuumatsu-walkure-jut.su/",
   },
   {
-    id: "podnyatie-urovnya-v-odinochku",
     title: "Поднятие уровня в одиночку",
     image: "https://pic.rutube.ru/playlist/0c49c99f-18a1-11f0-b7bf-3ea53672841e.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -1167,7 +1123,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/938657/",
   },
   {
-    id: "podnyatie-urovnya-v-odinochku-2",
     title: "Поднятие уровня в одиночку 2: Восстаньте из тени",
     image: "https://pic.rutubelist.ru/video/2025-01-06/e5/71/e57133f2f9affe1ada325678ceb07b3c.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -1181,7 +1136,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/938657/",
   },
   {
-    id: "podnyatie-urovnya-v-odinochku-3",
     title: "Поднятие уровня в одиночку 3",
     image: "https://pic.rutubelist.ru/video/2025-01-06/e5/71/e57133f2f9affe1ada325678ceb07b3c.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1193,7 +1147,6 @@ export const animeList: Anime[] = [
     genres: ["Приключения", "Фэнтези", "Экшен"],
   },
   {
-    id: "pridvornyy-mag-polzovavshiysya-lish-magiyey-podderzhki-potomu-chto-yego-soyuzniki-slishkom-slaby-reshil-stat-silneyshim-posle-izgnaniya",
     title: "Придворный маг, пользовавшийся лишь магией поддержки, потому что его союзники слишком слабы, решил стать сильнейшим после изгнания",
     image: "https://kinopoisk-ru.clstorage.net/pQ1w55173/4139b9eM/YjlB7JPX6VuBmOvjPOPvFBVRJJ2fCpSF0HVNpX5Mqjizcf7LfzbhGYjB5I2BSQGRml8mQMzgULdQmc58bWfG7fIIBMiD9v0KNGjPx4mGyvFUheUofKgiZ7IH-4atn5xfRyUKuhoDBM2M4QEZtPjltdw8xxRdpkHxgoiqeWwyAeqDewMfMoe4DPA6SGbv8Y2H15GCvQw5MyUg1HtGnly_TVdXOTxq8rTNzMFSmJVfRITOXnE03UUjwJPruSueU_B4gxmwrqKW-y7BiFgWjhKM1cYgYB78OVDk8YaaF99NrN3WpIsd6mL0vA3wowkHLuRU_F2jlz-kU8JCG8p5T4HhCHDoUY9DVcv-84vr11xgnHYVQnNdP8iDFAAUWDW8jw9fBAf77XvClEwNcbCrhA6kBF0fc-efhUIhcDi5Gb0RUtjwaADOQeWoLAAIiKSds42XZ4Gx_4xqcSbDJSmUL07d_VYWaZ4aMRTsbHEBeZc_V9ePXkH23bWxoxPa6fuN4lGIYKiBH4OVauzBGihHjVMsd1RwcV9dqpK0AbbrVb_szrzUNmluecCGTm8wgzmWfWWE7W2AtR-VAtJQKrmrLsGR-YLq4K6AZEodIkoKp-xwrMQnMNIdb-qgxwLGGSfsPw6e9yZY_KpilI2vwzPqB32GR6_eIbeOZUBicOn72swRk-rzetFvAXdZDkA6iMXOMQ2HNfLTfWz5oDeRhrr178-trLY0KW56QKRdnMMxaGSMJmXNHCC0PfYy0QO7STj_0vGKs2uhH1Dlu81DO8jHb5KPl9RTIQ7f-4A2omcaR14vTD0WxXpuGCEXHiyh4BnlPYQWHv8hVF5HctARyyj77tNjiKDZsN8yVCg_EXk5RM9jv8R2MBL-LMjBFrOlCGYNvK1v9LTo77mABgzfIpNo9A11tk7Pk5UeRGDAYBm4S4xh0emSerPMcRRpPaG5uJTec1yUlHCST1x44kfjFYp2nq68rOUkmy6486VNL0FTCmS9N-TPniP2TLWS0QPYiGs8I8L5o4pw7JBUKc7BGuq07fBd5hSj0e2_uYMlUmYp5R3_T9-Et1k_WiL0HS9A05pnH4c0rZ-SVF1HINDjyZlZLVIRCkCpI-8h5EtO4XjJxU_z36YEMcBdzirABSI2S6f9jOx9RPQoj6vS1S8tsGG6By7G1fxsAffOhTDTQLtqKe0xoHqDuXHt8vZ5zOGY6ZdNstxWRWIBDw35ARTQRktUH-3MjRT36K-4gTdMLJGx6dZs1wQebDPHvVZRsWLbyhm8UWIrozmyzJBUWX1RWcikrWMN5kQykUxO-7JX0Bd6106vX78FV-u_aHMXT2zgsXmELLTV7WwRVi33kEIwW5mJLBNCGQBrIs5ApGjOMDoqRe2RXJYnYoBNzTkDFRFWKeXNb0xt1TRL7Wvipv4dIXF4dC1HFm9ec-QuJkKzgZiLi73CM5ig-HOfcySIzdPaOmS9wa3FxXIB3l17cXXxtxuHzB7_jbQ1KW2ZofTv3oLy6lT8lFZtb-NVz4WgwIJ56Emfw4HoMAmBvINkGj2DGOo2z_Fd1VWB8p8PKMKG4QTJpp9_Pg4l9ts86TGnL76jEarU_sSHnv4ihGwl0kCgO1tZ3CPQejI6wpzzB6ovQ6mYNe2CzQXH8jDdjRngZQM0-TXfb7-NRQZJ_XoAlOxvwbIbhXzWRAyekfdMtMATsrlIaewxYcmCybOuwEQoDBJI6iW_YIy2p6ICPz3qsCSDNRpGL4_-XCUVap3KEIevTZDwClauJce-bmGHboZx0GE4Kyq8Q4PZwolDD2Pm2A9SystXrBEPVWWDsizdG6N0k0R5l-6Orf9WZkq-67CHL45zsAkEzBT1vu1SZ5yUMqMSWPpbrTOyetFacU9hpFsNgNqapI4SXFVHocNvr5mR9tNFGTe_v2yNNtZZHFgRBh1tgOE5ll2WZ7xvYQVPVmOhYoq6OF5gcguCOFFfs4RoPaEJ-aVO4ez0FiEBP-9rYAdQlajlHBy8voR26exZ0XSd3uJxWnb_pPUPf7HELnTDwoGrqAhcAmMbAqgBjNLGGn7hiMpE7vFdpSZCkJ8dilDnkFYYNA6sjg_W9umuO_K2bv9BMajWX3ZnDf1htw1XshBCGphKj_BCGaJbgd2jJgq-U4g4VH1TT-cH4DIuT_uQ1SJkKHddbTwcBjTIv5iiNXz90TP7Fg1lhu0dYoUM5jBwQMvqeQ3ykTjgaDF8UsWpL9Ob-cTPQ41mJVJh__4qcMUwlxuVT93O7NY2Ws4rs_StHWFh-CUclIWdvnFFnaYjgRGZGxnM0lGYQmuBn2GlyV3xGrmFHbMPVmWD0r9v-YFHUuToB3xvz612lPku6ILW7-5zQKo3Hsf07E5QV4xGEYGCaZvJv3LTqLEakq5QRPlcQ6r4tozyjHTkAvAN3fvh54NlS0b_Xf7v5ca6jHqixn9fYvPpFx1kdx0_UJQPlYGi0TnZ659icfrQqtDMkXR5T1O6-cbNoO729WGDfZ7b4DTihXmXX6z_3yRkm-wI4zZNTnFDCqS_poTNHEI37EZgAGAay_kewuFLw6pRrIE1ukxSWfiXj7FMVtVAIF3cC4Dnk2dpJXyNfjz39Pv_WvDG_4zisfjEjjW3_d2ChM4Hk6CA2ZmpbnJDycDZsF2C9JoNQBrKla0DbxbHwAKOPwsCpKNmuif93U-9RRcZ3qhB5b8e8FDZ5KyG1B6twyVP9WCg4fnbGu-ho1jBKnKvAWSbLcHaC5Re4Q-GJVJD7z0o83fSt5skLU797dS3Omwo8TTPHTKB2rXuZgbtjeHE_HZSctAK2wtfM1J7wgrw_RBl6F_xOniGvmF9xXYi4uwMKnEG0FUrJSx8jLwkhjkOuAEmjP9zchunTIek_f1QBW3FEEEy2_spPmBxKeMLYs0xJ6rPUTm4ZV0C3uV0Y_H9TFpCZ8Jm-8csPWxOlJXZLCogFI49opHJpp6WdF88sYXeJtJRQSmp0",
     rating: { owl: 5, crocodile: 5 },
@@ -1207,7 +1160,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/9271175/",
   },
   {
-    id: "priklyucheniya-v-drugom-mire-vospityvat-detey-buduchi-avantyuristom",
     title: "Приключения в другом мире: Воспитывать детей будучи авантюристом",
     image: "https://animego.me/upload/anime/images/66829fdde0d75838041595.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1221,7 +1173,6 @@ export const animeList: Anime[] = [
     video: "https://vk.com/video-205534565_456239391",
   },
   {
-    id: "puteshestviye-kollektsionera-po-drugomu-miru",
     title: "Путешествие коллекционера по другому миру",
     image: "https://pic.rutube.ru/playlist/2025/10/21/95/df/fb5ca956-ae57-11f0-a1e9-aa1dd00b6376.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1235,7 +1186,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1257582/",
   },
   {
-    id: "rukovodstvo-soten-demonov",
     title: "Руководство сотен демонов",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/941f84e8-b687-401a-b195-6a0e0ffe01de/1920x",
     rating: { owl: 0, crocodile: 0 },
@@ -1249,7 +1199,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/5264412/",
   },
   {
-    id: "rukovodstvo-soten-demonov-2",
     title: "Руководство сотен демонов 2",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/941f84e8-b687-401a-b195-6a0e0ffe01de/1920x",
     rating: { owl: 0, crocodile: 0 },
@@ -1263,7 +1212,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/5264412/",
   },
   {
-    id: "sverhkub",
     title: "Сверхкуб",
     image: "https://kinopoisk-ru.clstorage.net/1a67dy098/8611d2xOYY9w/I0qKNXQchirvtLN0mFVJJHV1jCMCqHLscFkDqyEL1-s6BCaIGU5VMhuN-2f-7NVqYAeJEtK0uIJHOVIoqrHKxXdqrlCQ6VNr74AGcV2VXYWghc0id9zWnaXoFg6FCNSIGKLV6jp8txR8eY9z_xlAbwQD2bIWoQxzBn50jLsBjlKSeYh20H5l6Yvl4edaheki9KTtV1PZAJnSy_FboCnm2log1tp4HbdUPIqeo-jZYZ6n8ssgtBD4gsQNdcmKEDzDkQqL1GBvxRur5WDk6nf7goeHDieA6WMIckuya4BaNDoZgJVYKP40NA-5zJC4W0C-5HKYQ_SRe6D0rWQqiMFtUzBpyhYSHtR6SPSyNGm16cBnd8-lEBpx2_FpEWlwWKZpaOH06kjfZeQOWK8wSZrxnwezi1MXcLpxR473GMrxLXFiyDom8i53yJu2ISbo14mhhPacJPKrczqzaLF44FoFG0kiZGhq37flnBqtIGtpY1-1UIlRpWF78ySsBZgKMo5w0igYFpA-Bqt7pHA02WWJAObXXRUAqhLackjQaIFp5ct7sGT4Ow5VFn04voH5mPA9xXG5kpXRekMnvIfr-dLcsAIoKIYSHgab6_VjNsh0arGXVQ308LkxGgPbwWuhaVfKyqBkilmPFHQOOn4y6niAzXSAyRAGwDsQR23FSMgQ7AFTagpEAq62uWl2QVYLZEuDxoWdVKB5E5gyieH5E4gVi1pCVig43WVV7_jvM6vrgV72MctwVAIpMIRddevIgS7y86urltAeZXurl-OmOOXIAZfnT7UiKbCb45lTa_KLlHl4wYdb2Q8kBo65nCJoipLuRjC50vUi6nA1zBXLu7NtsqDIGCYzvSb6-jQDBRhGC5G3Z38Vk-kRa5Iqw5uCm_X5aMGVO0mNFEQ-eH8wuQuzvTQB2-K3YOiC1z8VGfsArnLSmRiU44622Zk1cVc65QjChWWuF4L5UIowabOqcQmU-ngR5PoLPRc0frjtYkj7YAyFwBpQRuDoIDYsF_h6A87RQhuplXJfFkmpRgF0G4QLkHXGndRymqA68agxeeEL1Rhbk6cIS25X5N3LnzK5G1BO5kOIwjQwqZOFrUVq-oKs0pM42pRSLXSpC-XSNSgn2YCkpk0nkCkjKsJ78AhwmCVbONKGiWoehfWNOJ7iucsizJZyKcKloQhSxa_EKonw3AJhmLknME806qlmIEYLJwoihJTtRRJ602jgy2OosUhHWaoDdDo5DgTn_CgcYYtrwr0EomuCZLFo0VZct5p5sA9iUorqFAI8dJjJd-HVSSfKA_UHHHfCmhO7ImtRGUEZt-kakhZqCE2n9l36TjA4u1DNJ6CZcNXDSYB175eaOvLvMLGI-Adz3WYJKQZB5kg0SYPHJt3HY5hg68GKoflTmXQ46eJkSIl9JgW8Wq0BCYiwnRZh-9DnQevQ1g2VWsgQDoAA-ZtGMO3VOHmVoGU6RlqAV6ddJMA6U1qCyrHbIGplqVjhZWr6fnQnvhhvclkqYs9HgjgC1cA7MWfstSiago9RsBjpdDAsZglbZmBE-bQpoIXX_7fg6sGKkIswKxFrB5ia8rV66n2EJ574HuKoW4JfNuA7crcCOPDkvoXZ2jIM0zCb6aUxnpYpqaSDxerniYHlNaxnEiozSCCLIikQaQUoivNm-ZmfRSV92A9CWdmzz0dRmEIFcXjSNU7FqZni3yIAibt2Y342iHmH0AdYpjgAt6RM9ZF5IinQmNH6wOk2KvkixPrZnATm38vtoqjZE3_2gvugJ-Dp4GStNkpoEX8jMlrJBvLOlpq7pADnGQWpMEWHDDcCyFC587mj-6JJZRsY0_bIWE5lFg-53MLq2oGvtlL60cUCuLF1f8ZJiZAM8aL6y7YCHubZ6-VRRotmOMHV1-10cktwi9OqE3kwOmQZeEP0eqofZ9d-6B7waLnQbSRCGgG1otiw129mesuDLMJBGMqEIs8WCMhHMdSKR5mTp6WNlZKoYUrTufNo0Lpk-wvSRxqJjOTljPvMclubUhzk4quCZ0PasrR_Bms6AJ8hMTq7NLAOp2sp1_ME-0fpsgUk_fdyunH6w2ux6PGaNYk6cMRJ2a0Hl55LnXJ72HHtJ8Po4wTzmjOlXOQbqsMu4qF6-XYQrkSq66YiJBiHCjHEpl8HQBjzC8B5UgvDOzZbC5N0-Lv_dXX9-I0w29sAjQbSa_MUkKiAFX7nW7vAjjOQ6jgHwG3UWZoWchSa5gogFJdcNpNI0IiQ23BJ8lkFWDogRRmID4dUHQjOgjjrEZ0EYKngd1Po4Bce9WvLMd4ikIhbJcCMZuiJNROFOvQKEaaUX1cQ-7KogktDKNJrpuspMNZ4SC5kxC-onmIZi3GNdsIb8FcxG_F0TWRqSgPNQIMKa3ST_xarOXZDtrknmsMHBV4VcHkBaNJrsFkiqEXLmbJXOujM1faey34QyotzvMfBuMDl8OnzZ-_1KviB7EJgGammsb1lW7t1w-VJRVvShvS895HZcqrBm2IJU6ukGyjwloib_3VHTmhvo4magIznU-gTtKDJA3ZsBkiLoN0zEUooZRJNFUpZxlNUKqU6EFc3POXDiFG4g9oCSOBbl0p64MS4KMw3xE75r5MLiTDe1hK5Y5fzCrFmf6foywOuorE7ybTTbmXLe9WRxtlGGPH2tR9Fc6tQynIqsmlxW4Uqa5G06rnu5vS9O65C6TkjnsdjuQIU0fhhJDz1q8uQDqMQeFuGMO_1CMp3gaX4dQqw5gXM5UALYrpSmvIYkkm2-0vQtrnJ3UTGbYvs0esJggy1g9rCVhMLkRX9VfrL47ySQ6nZ5dFtVvr7RhDkCAQL8MVmnbSRqrCYcBlSy5NLpjtoQYSa-N2GJP4rfnErC9FtlIL64RSz6aNWXwVqmbIM4aGq6nXQ3kZ7S-UTtBqXmbLnJK_1s4uAyEJqEyiwihfamIHUKVoOxzZOWl5g65jQfMZD6SBHYjrRY",
     rating: { owl: 5, crocodile: 5 },
@@ -1276,7 +1224,6 @@ export const animeList: Anime[] = [
     video: "https://vk.com/video-172050720_456239293",
   },
   {
-    id: "skaz-o-parii",
     title: "Сказ о парии",
     image: "https://pic.rutube.ru/playlist/5b634f62-355e-11f0-9723-e64504c2fa6b.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -1290,7 +1237,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1034795/",
   },
   {
-    id: "skazka-o-saharnom-yabloke",
     title: "Сказка о сахарном яблоке",
     image: "https://pic.rutube.ru/playlist/42229dd0-c6ed-11ef-8c9c-02420a000c3e.png",
     rating: { owl: 0, crocodile: 0 },
@@ -1304,7 +1250,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/763862/",
   },
   {
-    id: "skazka-o-saharnom-yabloke-chast-2",
     title: "Сказка о сахарном яблоке. Часть 2",
     image: "https://pic.rutubelist.ru/video/2024-12-30/bc/3d/bc3d814deed54f62b9b5349d165db692.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1318,7 +1263,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/763862/",
   },
   {
-    id: "smertelnaya-igra-mertvoy-gory",
     title: "Смертельная игра Мёртвой горы",
     image: "https://pic.rutube.ru/playlist/eb8c9ac8-9e25-11ef-8e64-02420a000b34.png",
     rating: { owl: 0, crocodile: 0 },
@@ -1332,7 +1276,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/681031/",
   },
   {
-    id: "smertelnaya-igra-mertvoy-gory-chast-2",
     title: "Смертельная игра мёртвой горы. Часть 2",
     image: "https://pic.rutubelist.ru/video/2024-11-09/c0/7d/c07df39aa19e03be68e3a5a5702d1fa9.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1346,7 +1289,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/681031/",
   },
   {
-    id: "sozdannyj-v-bezdne",
     title: "Созданный в Бездне",
     image: "https://pic.rutubelist.ru/video/f2/ae/f2ae3959b477fb97f5f3bc8f10526057.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -1360,7 +1302,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/332952/",
   },
   {
-    id: "sozdannyj-v-bezdne-nachalo-puteshestvija",
     title: "Созданный в Бездне: Начало путешествия",
     image: "https://pic.rutubelist.ru/video/2025-01-06/af/fc/affc5a72c4f91d25349509a43c9389fb.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1374,7 +1315,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/332952/",
   },
   {
-    id: "sozdannyj-v-bezdne-bluzhdajuschie-sumerki",
     title: "Созданный в Бездне: Блуждающие сумерки",
     image: "https://pic.rutubelist.ru/video/2025-01-06/65/d9/65d93458d559237ab4ef2d5a020ac22d.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1388,7 +1328,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/332952/",
   },
   {
-    id: "sozdannyj-v-bezdne-rassvet-glubokoj-dushi",
     title: "Созданный в Бездне: Рассвет глубокой души",
     image: "https://pic.rutubelist.ru/video/88/ff/88ffa54a2ef9b0e22f7490be70afc13f.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -1402,7 +1341,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/332952/",
   },
   {
-    id: "sozdannyj-v-bezdne-2-sezon",
     title: "Созданный в Бездне: Солнце, вспыхнувшее в Золотом городе",
     image: "https://pic.rutubelist.ru/video/57/70/5770643eabc4689e04097620e0991678.jpg",
     rating: { owl: 5, crocodile: 5 },
@@ -1416,7 +1354,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/332952/",
   },
   {
-    id: "starik-iz-derevni-stanovitsya-svyatym-mechom",
     title: "Старик из деревни становится Святым мечом",
     image: "https://pic.rutube.ru/playlist/2025/06/16/61/e7/8d963e8e-4ab7-11f0-b19a-0ee118d47721.jpg",
     rating: { owl: 4, crocodile: 4 },
@@ -1431,7 +1368,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1084587/",
   },
   {
-    id: "tvoy-tsvet",
     title: "Твой цвет",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/4f587fc1-846b-4314-a4a8-e756eee6a438/1920x",
     rating: { owl: 0, crocodile: 0 },
@@ -1445,7 +1381,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/film/5229324/",
   },
   {
-    id: "tvoya-forma",
     title: "Твоя форма",
     image: "https://kinopoisk-ru.clstorage.net/1a67dy098/8611d2xOYY9w/I0qKNXQchirvtLN0mFVJJHV1jCMCqHLscBjSDyUeQi8v5XOcPH4wY-ud-weebHWq8ee5B9e0-NJyDedd-vS-NbcqyyEV7GZe36AWYXmQXfWWZi914PvRW4J74dkxelYO6gBm-Dhe1ffeLB8j2AoE_nTim-L0gtoCpR4FKApTHTKi-xl1ccxmytp2EhZadwjQt1R9N2L44Rnje6GZwmuGGSohl1vJTEdVb9ju4asLQc9lUArhh4F4srS-9wgK0h6CUOm5BlIvFhnqFYO22jQ48MSGnXTCu2NJAPjBqvE5tUmoALcYSR8kFe5bzNELGqLNtAGaQOTAusDFr5brGwDOAZL7--ai7pSJGQdQNfiXOgDGFM4Fo9rRKSGpEasQWhW4abGW-4gMNPYPmh1iKImQj4RBuBJFMIog9QwkOFmT3IDwm5oFI70Va6gFsXf5NyuQxLe8JGBKUwshexA5UlgFmpojVklrDjZEHlufAQp7EE9H4rmipRK6QuV9R9hLws6xQps7ZwJ8JJmpZFG22VY78fdXbBbySsNa8Jnj2HBLpAhrsDQ5Sj71dK5aLwIa-WO8p7B5cqUiKsDFfXdIGtHMoFN4ihaALMVpukeRx0pHONH35W2n4kqxOHHYgatyixcbi8DEiLtOd-e_G3xiy7vAjWWAyCPnAOjQdc1VypnzrGNDWbhHULxlOXplE_YYZ6pjFqcsNwB4E1kjqaBKsBoWWhjBVwoKTBe1fQlcofsLY430QjuDJqE6AsUelwh4UVxQwto6FjJuhLsqxhAnCNU4ghUm3hWDqWC48ejzK_FpB5l50ue6Cz61FF3KHBBqa0P-xgF70EUSiuFmXRZZ27H_cGEZqjayXiQK6mfgVrtFyPIFR14Fg7sAKHPYsZswihVI-PO0yDpchVYfyO7ymWuRvnXCu6IUEjgxVc01OtrDrVLCGvkEsI8mG_omAfT4NfkBlyZdFVPKwWrD28Hb8BhHuQggBXn7nTenn8hME4ppcD92ohgylqM5oIRtpQqps45zoxmr9BO85euZ1rE1ObcqkZVnvzbRiTMqkJsReINqF0joEEcaeA-l1U-J_6ALO-K_98Ab47XQOID2D0WoCmDPQADLuyVzbBYJKlWhBup2WwAGl_xVkKiyC-BJAChwa8dIOGLFakmupUTeKD7gCbqizIWwyxEVs4vilE8GComSvGMAGBkFQcx0i3ml4yRa5fvB1vX-x0FaAVjwyBJZYOlEepiCtPiZ7OWFzki9c_rJEjzFY6siB-C40OcPdGqYUy8hANg4dNI9RluZZTDm-tdKMYcFTnfQOFFps2sD-LK7FclIEMTbmx4XNLxp7FBJ6RJ_h4P5wQXyq6EGHeWK6fMcIBNbuEbz_Pb6mxZgBRsnqiMHxp-EoEpz6IPq8BkSWCT4e_CU6lp8twY-y7zzq-vSjWViSXB0keriNq7U2noSn1JhSLvWcnwVWTkl0UZbN4hQ9NcONaNLUZuAuNIbUJpXqNkixru5v2U0vxtdQkrLoN_345jAlePY4vcd5fiJ0r6RkzubBALehnnptwFUGrZ4YfW1P_ewm0GLg0jSO7Drx1mowlbK27wVVn0YnMEY-1GfR2AaQBbjCeNF7cUKSzE_gsCbumTgjVaLKUXD5BqkemD3t4_nsUjC-GGJ0NiQ-meoKvPGu2ofJeQOWL4Q6Lsh3Jez63AEsdqxpU1k2mhi_TCBKjs2cW3ECHpUohQJV6mwd4SNlGDqwbhiyBN6gxiHWSpTdgq5fMfGn8mMQQtIwi1kE-pC18OqIBXtdhhLsh1xIrsLxFItBpvLJjI3KCWo0tfXvHWR2PM5sKnjqvEp5xspwaZKaX22JH2Y3VDZuMHM5WA40nfBGtDFnTVICuO840Eq-lQCzEXrSAYAFzuVKkCk1r4VAdpBy-GrItug69WZSpBk2HmdZlTd-NzyyRjyjvZACzGVwCjwFG3ka6iDLuJgi6gmcKykC6sXwRcodTugJNZcZpBpIehyKBApszlXqmgSFRjZLOWGPPrekdl443918-hBt7GYYtXch4o4Qf6TYPuJhPHcxuu5B3EH-je7gQSHLlcy6nK4U8tiOwNoV4orMeTb-G-E5Yy6X4D6mpPvtkIr0ffz2sJ1P0ZISZDecKAYCkVzfjbZG4WABOjUWLOlhPxm0VrD2gG5gFiweBUqKECE-unslPXviOww2JnT_rXi-uBnMqsStq-1OfnA7vLBGBuVQn0HCkumA1RK9hqCx7f_V2JrIunxS6G4QDunyRhRlPhbLoeWLMiMMriL445EsuvgBVGJElcdBCraoX9S0xgqJ0F-Zon4xCNG2sV7ovUUTERy-EMp0KgxiuBrR-h4MYSK-ZyXtk47nVHrGuIPdqGJ84dh2EEkbUeamfFM0QCI-IbQfyTpenfjFvo2ClI292z08HkBiTIZAzuDizU7eDO1O_o_pwSPyZ9CSYuivfSAixCUowpjZh63GJpxHyFiSekHIZ3GCNoEIQUK5FojNRa8RbK4s_oBubLrIJqGeGnAhRtob3RV3-lvU8p4wM7VsfphxyLJwJZupvop4a5Cgigr1uId1FqLJzNHS4QbkMUl7Rei6oNJMvsx67Fatvp6cNcqKT4Edowq3UPZ2WCOdsJrwbbDGAG1HifYOiM8sWEKyndgPnTqqCZBtrs0OgHFN40G05rR2BAqARhzW2cYymOXO1g-ZfWu2A0BmosjjuViamD1USriNI7kaZgzX5BSGItn0O3U2QgUMZYLdEvi1wRcJpKYgqgjiDPIwxn0GvrCBUm4XaW3bCv9MFsrco6W0FszJNNJA7YtFlipoh5gIxnLRLO8hQipxhO0iNSY49UUnAUDqqGZI0rRW2OLVNr4kWRouX2G9czJz3P5e-Lcx2Ao0Sfg2QIFPZfoCqFOcrCLiWbxjsQqiPZDhvuVe8AUpX31w_oSO_ALw-sSq0Uaa5B1OnhuR6YdGr1DqUvB70XB2fI2gahSY",
     rating: { owl: 5, crocodile: 0 },
@@ -1459,7 +1394,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/7513990/",
   },
   {
-    id: "ten-pustoty",
     title: "Тень Пустоты",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/86e2374d-5e1d-4d61-83b9-09e6809a50cb/1920x",
     rating: { owl: 0, crocodile: 0 },
@@ -1473,7 +1407,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/6021258/",
   },
   {
-    id: "tomnyy-demon",
     title: "Тёмный демон",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/10953618/4709eaba-f8d0-45b7-9b3c-6c88fa566717/1920x",
     rating: { owl: 5, crocodile: 5 },
@@ -1487,7 +1420,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/8314105/",
   },
   {
-    id: "tri-sestry-mikadono-okazalis-neozhidanno-prostymi",
     title: "Три сестры Микадоно оказались неожиданно простыми",
     image: "https://pic.rutube.ru/playlist/2025/07/31/af/81/303e0c09-6de0-11f0-b5a9-966319e8bb57.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1501,7 +1433,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1139785/",
   },
   {
-    id: "fars-iz-ubiystva-devushki-nezhiti",
     title: "Фарс из убийства девушки-нежити",
     image: "https://pic.rutube.ru/playlist/735ecba2-b742-11ef-9bb2-02420a00031e.png",
     rating: { owl: 5, crocodile: 0 },
@@ -1515,7 +1446,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/726916/",
   },
   {
-    id: "chelovek-benzopila",
     title: "Человек-бензопила",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/8205541e-8436-41f8-8dcf-720400965d5e/1920x",
     rating: { owl: 5, crocodile: 5 },
@@ -1529,7 +1459,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/2040161/",
   },
   {
-    id: "chelovek-benzopila-film-istoriya-reze",
     title: "Человек-бензопила. Фильм: История Резе",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/72fc99d6-36a9-4253-b3eb-18efc6a096fe/1920x",
     rating: { owl: 0, crocodile: 0 },
@@ -1543,7 +1472,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/film/5430477/",
   },
   {
-    id: "shalnoy-posledniy-boss-yavilsya",
     title: "Шальной последний босс явился!",
     image: "https://pic.rutube.ru/playlist/2025/10/13/cb/f6/0e1bb315-a7f3-11f0-b6c4-2a6812f5ef41.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1557,7 +1485,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/1246889/",
   },
   {
-    id: "yuna-iz-gostinicy-yuragi",
     title: "Юна из гостиницы Юраги",
     image: "https://pic.rutube.ru/playlist/fa254227-92d8-11ef-9e7c-02420a000248.png",
     rating: { owl: 5, crocodile: 5 },
@@ -1571,7 +1498,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/655354/",
   },
   {
-    id: "yuna-i-goryachiye-istochniki-s-prizrakami",
     title: "Юна и горячие источники с призраками",
     image: "https://pic.rutubelist.ru/video/2024-10-25/cd/d3/cdd3ed0d9f44793c612464bc47b8f8ff.jpg",
     rating: { owl: 0, crocodile: 0 },
@@ -1585,7 +1511,6 @@ export const animeList: Anime[] = [
     video: "https://rutube.ru/plst/655354/",
   },
   {
-    id: "ja-byl-predan-tovarischami-v-glubine-podzemelja-no-blagodarja-svoemu-navyku-beskonechnaja-gacha-ja-obrel-sojuznikov-devjat-tysjach-devjatsot-devjanosto-devjatogo-urovnja-chtoby-otomstit-byvs",
     title: "Я был предан товарищами в глубине подземелья, но благодаря своему навыку «Бесконечная гача» я обрёл союзников 9999 уровня, чтобы отомстить бывшим соратникам и всему миру!",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/10703959/aac91633-a2bc-4fae-a46e-50815e44c4c2/1920x",
     rating: { owl: 5, crocodile: 5 },
@@ -1599,7 +1524,6 @@ export const animeList: Anime[] = [
     video: "https://www.kinopoisk.ru/series/9933478/",
   },
   {
-    id: "ya-sekretar-gildii-no-ya-ne-lyublyu-sverhurochnuyu-rabotu-poetomu-ya-sobirayus-podchinit-bossa-v-odinochku",
     title: "Я секретарь гильдии, но я не люблю сверхурочную работу, поэтому я собираюсь подчинить босса в одиночку",
     image: "https://pic.rutube.ru/playlist/74740171-f5f8-11ef-87d9-bacef31d8601.jpg",
     rating: { owl: 5, crocodile: 5 },

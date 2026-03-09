@@ -1,26 +1,19 @@
-export interface AnimeRating {
-  owl: number;
-  crocodile: number;
-}
+import type { Person } from "./person";
+
+export type AnimeStatus = "completed" | "dropped" | "not_interested" | "planned" | "watching";
 
 export interface AnimeProgress {
-  owl: {
-    watchedEpisodes: number;
-    status: "watching" | "completed" | "planned" | "dropped" | "not_interested";
-  };
-  crocodile: {
-    watchedEpisodes: number;
-    status: "watching" | "completed" | "planned" | "dropped" | "not_interested";
-  };
+  watchedEpisodes: number;
+  status: AnimeStatus;
 }
 
 export interface Anime {
   id: string;
   title: string;
   image: string;
-  rating: AnimeRating;
+  rating: Record<Person, number>;
   episodes: number;
-  progress: AnimeProgress;
+  progress: Record<Person, AnimeProgress>;
   genres: string[];
   description?: string;
   video?: string;

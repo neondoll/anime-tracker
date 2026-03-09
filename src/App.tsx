@@ -1,21 +1,21 @@
-import { type FC, useState } from "react";
+import { type FC, useEffect, useState } from "react";
 
 import type { Anime } from "./types/anime";
-import { animeList } from "./data/animeList";
+import type { Person } from "./types/person";
 import AnimeList from "./components/AnimeList";
 
 const App: FC = () => {
-  const [animes] = useState<Anime[]>(animeList);
+  const [animes, setAnimes] = useState<Anime[]>([]);
   const [filterStatus, setFilterStatus] = useState<string>('');
-  const [activeRating, setActiveRating] = useState<'owl' | 'crocodile'>('owl');
+  const [activeRating, setActiveRating] = useState<Person>("owl");
 
-  const getStats = (type: 'owl' | 'crocodile') => {
+  const getStats = (type: Person) => {
     const total = animes.length;
-    const completed = animes.filter(a => a.progress[type].status === 'completed').length;
-    const watching = animes.filter(a => a.progress[type].status === 'watching').length;
-    const planned = animes.filter(a => a.progress[type].status === 'planned').length;
-    const dropped = animes.filter(a => a.progress[type].status === 'dropped').length;
-    const notInterested = animes.filter(a => a.progress[type].status === 'not_interested').length;
+    const completed = animes.filter(anime => anime.progress[type].status === "completed").length;
+    const watching = animes.filter(anime => anime.progress[type].status === "watching").length;
+    const planned = animes.filter(anime => anime.progress[type].status === "planned").length;
+    const dropped = animes.filter(anime => anime.progress[type].status === "dropped").length;
+    const notInterested = animes.filter(anime => anime.progress[type].status === "not_interested").length;
 
     return { total, completed, watching, planned, dropped, notInterested };
   };
@@ -24,6 +24,12 @@ const App: FC = () => {
   const crocodileStats = getStats('crocodile');
 
   const activeStats = activeRating === 'owl' ? owlStats : crocodileStats;
+
+  useEffect(() => {
+    fetch('/anime-tracker/data/anime.json')
+      .then(res => res.json())
+      .then(data => setAnimes(data));
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-900">
