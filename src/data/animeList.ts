@@ -1396,10 +1396,10 @@ export const animeList: Omit<Anime, "id">[] = [
   {
     title: "Тень Пустоты",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/86e2374d-5e1d-4d61-83b9-09e6809a50cb/1920x",
-    rating: { owl: 0, crocodile: 0 },
+    rating: { owl: 5, crocodile: 0 },
     episodes: 13,
     progress: {
-      owl: { watchedEpisodes: 4, status: "watching" },
+      owl: { watchedEpisodes: 13, status: "completed" },
       crocodile: { watchedEpisodes: 0, status: "not_interested" },
     },
     genres: ["Фэнтези", "Боевик"],
