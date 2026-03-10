@@ -80,10 +80,10 @@ export const animeList: Omit<Anime, "id">[] = [
   {
     title: "Беспокойные небожители",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/9521873b-1bfb-4e06-8d59-811f5cc5b334/1920x",
-    rating: { owl: 0, crocodile: 0 },
+    rating: { owl: 4, crocodile: 0 },
     episodes: 12,
     progress: {
-      owl: { watchedEpisodes: 4, status: "watching" },
+      owl: { watchedEpisodes: 12, status: "completed" },
       crocodile: { watchedEpisodes: 0, status: "not_interested" },
     },
     genres: ["Комедия",  "Фэнтези"],
@@ -93,10 +93,10 @@ export const animeList: Omit<Anime, "id">[] = [
   {
     title: "Беспокойные небожители 2",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/9521873b-1bfb-4e06-8d59-811f5cc5b334/1920x",
-    rating: { owl: 0, crocodile: 0 },
+    rating: { owl: 4, crocodile: 0 },
     episodes: 12,
     progress: {
-      owl: { watchedEpisodes: 0, status: "planned" },
+      owl: { watchedEpisodes: 12, status: "completed" },
       crocodile: { watchedEpisodes: 0, status: "not_interested" },
     },
     genres: ["Комедия",  "Фэнтези"],
@@ -106,10 +106,10 @@ export const animeList: Omit<Anime, "id">[] = [
   {
     title: "Беспокойные небожители 3",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/9521873b-1bfb-4e06-8d59-811f5cc5b334/1920x",
-    rating: { owl: 0, crocodile: 0 },
+    rating: { owl: 4, crocodile: 0 },
     episodes: 12,
     progress: {
-      owl: { watchedEpisodes: 0, status: "planned" },
+      owl: { watchedEpisodes: 12, status: "completed" },
       crocodile: { watchedEpisodes: 0, status: "not_interested" },
     },
     genres: ["Комедия",  "Фэнтези"],
@@ -119,10 +119,10 @@ export const animeList: Omit<Anime, "id">[] = [
   {
     title: "Беспокойные небожители 4",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/9521873b-1bfb-4e06-8d59-811f5cc5b334/1920x",
-    rating: { owl: 0, crocodile: 0 },
+    rating: { owl: 4, crocodile: 0 },
     episodes: 12,
     progress: {
-      owl: { watchedEpisodes: 0, status: "planned" },
+      owl: { watchedEpisodes: 12, status: "completed" },
       crocodile: { watchedEpisodes: 0, status: "not_interested" },
     },
     genres: ["Комедия",  "Фэнтези"],
@@ -1485,6 +1485,19 @@ export const animeList: Omit<Anime, "id">[] = [
     video: "https://rutube.ru/plst/1139785/",
   },
   {
+    title: "Три тысячи лет практики ци",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/8d8d7514-1678-452b-9ba2-f735a0165436/1920x",
+    rating: { owl: 5, crocodile: 0 },
+    episodes: 16,
+    progress: {
+      owl: { watchedEpisodes: 16, status: "completed" },
+      crocodile: { watchedEpisodes: 0, status: "not_interested" },
+    },
+    genres: ["Фэнтези", "Боевик", "Комедия", "Приключения"],
+    description: "Ученик великого мастера отправляется на поиски бессмертия. Китайское фэнтези с хлёсткими диалогами",
+    video: "https://www.kinopoisk.ru/series/9027204/",
+  },
+  {
     title: "Фарс из убийства девушки-нежити",
     image: "https://pic.rutube.ru/playlist/735ecba2-b742-11ef-9bb2-02420a00031e.png",
     rating: { owl: 5, crocodile: 0 },
@@ -1535,6 +1548,19 @@ export const animeList: Omit<Anime, "id">[] = [
     genres: ["Экшен", "Приключения", "Фэнтези"],
     description: "Главная героиня — могущественное существо, которое когда-то было известным игроком в онлайн-игре Exgate Online. В прошлом он управлял аватаром по имени Люфас Мафал — легендарной владычицей Чернокрылого льва, чья сила вызывала страх у всех героев мира. Чтобы разнообразить игру, он однажды проиграл сражение и исчез. Проходит двести лет. Люфас внезапно возвращается в тело своего игрового персонажа — но уже не в игре, а в настоящем мире, который кажется ей слишком реальным.",
     video: "https://rutube.ru/plst/1246889/",
+  },
+  {
+    title: "Экзорцизм. Хроники: Начало",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/acffc822-df39-4a91-a5ba-58942d03d94f/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 1,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "watching" },
+      crocodile: { watchedEpisodes: 0, status: "not_interested" },
+    },
+    genres: ["Фэнтези", "Боевик"],
+    description: "Экзорцисты должны помешать изгнаннику подчинить себе силы зла. Экшен-анимация по корейскому бестселлеру",
+    video: "https://www.kinopoisk.ru/film/6790686/",
   },
   {
     title: "Юна из гостиницы Юраги",
