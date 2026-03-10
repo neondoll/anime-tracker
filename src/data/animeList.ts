@@ -1420,6 +1420,19 @@ export const animeList: Omit<Anime, "id">[] = [
     video: "https://rutube.ru/plst/1084587/",
   },
   {
+    title: "Стражи терракоты",
+    image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/15c4eb7a-ccca-4bb7-8db6-aa1c06dc3693/1920x",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 1,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "watching" },
+      crocodile: { watchedEpisodes: 0, status: "not_interested" },
+    },
+    genres: ["Фэнтези", "Боевик", "Семейный"],
+    description: "Магнус и Джейд ловят монстра, атакующего подземный город. Красивая анимация о воинах знаменитой глиняной армии",
+    video: "https://www.kinopoisk.ru/film/4445709/",
+  },
+  {
     title: "Твой цвет",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/4f587fc1-846b-4314-a4a8-e756eee6a438/1920x",
     rating: { owl: 0, crocodile: 0 },
@@ -1552,10 +1565,10 @@ export const animeList: Omit<Anime, "id">[] = [
   {
     title: "Экзорцизм. Хроники: Начало",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/acffc822-df39-4a91-a5ba-58942d03d94f/1920x",
-    rating: { owl: 0, crocodile: 0 },
+    rating: { owl: 5, crocodile: 0 },
     episodes: 1,
     progress: {
-      owl: { watchedEpisodes: 0, status: "watching" },
+      owl: { watchedEpisodes: 1, status: "completed" },
       crocodile: { watchedEpisodes: 0, status: "not_interested" },
     },
     genres: ["Фэнтези", "Боевик"],
