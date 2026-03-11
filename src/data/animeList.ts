@@ -1422,10 +1422,10 @@ export const animeList: Omit<Anime, "id">[] = [
   {
     title: "Стражи терракоты",
     image: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/15c4eb7a-ccca-4bb7-8db6-aa1c06dc3693/1920x",
-    rating: { owl: 0, crocodile: 0 },
+    rating: { owl: 5, crocodile: 0 },
     episodes: 1,
     progress: {
-      owl: { watchedEpisodes: 0, status: "watching" },
+      owl: { watchedEpisodes: 1, status: "completed" },
       crocodile: { watchedEpisodes: 0, status: "not_interested" },
     },
     genres: ["Фэнтези", "Боевик", "Семейный"],
