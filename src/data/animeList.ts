@@ -1550,6 +1550,30 @@ export const animeList: Omit<Anime, "id">[] = [
     video: "https://www.kinopoisk.ru/film/5430477/",
   },
   {
+    title: "Что будет делать сильнейший король в своей второй жизни?",
+    image: "https://pic.rutube.ru/playlist/86d10879-131b-11f0-977d-3a1089bda63a.jpg",
+    rating: { owl: 5, crocodile: 5 },
+    episodes: 12,
+    progress: {
+      owl: { watchedEpisodes: 12, status: "completed" },
+      crocodile: { watchedEpisodes: 12, status: "completed" },
+    },
+    genres: ["Исекай", "Фэнтези"],
+    description: "Главный герой, некогда могущественный король по имени Грей, был повелителем целого мира. Он обладал абсолютной силой, но за роскошью и властью скрывались одиночество и духовная пустота. В своей прошлой жизни он не знал, что значит быть по-настоящему счастливым. После смерти Грей получает второй шанс — он перерождается в другом мире под именем Артур, где находит не только магию и новые испытания, но и самое важное — настоящую семью, любовь и поддержку. Сохранив память о прежней жизни, Артур решает не повторять старых ошибок. Теперь его цель — не завоёвывать мир, а защитить близких, стать достойным человеком и найти своё место в мире.",
+    video: "https://rutube.ru/plst/928429/",
+  },
+  {
+    title: "Что будет делать сильнейший король в своей второй жизни? 2",
+    image: "https://pic.rutube.ru/playlist/86d10879-131b-11f0-977d-3a1089bda63a.jpg",
+    rating: { owl: 0, crocodile: 0 },
+    episodes: 0,
+    progress: {
+      owl: { watchedEpisodes: 0, status: "planned" },
+      crocodile: { watchedEpisodes: 0, status: "planned" },
+    },
+    genres: ["Исекай", "Фэнтези"],
+  },
+  {
     title: "Шальной последний босс явился!",
     image: "https://pic.rutube.ru/playlist/2025/10/13/cb/f6/0e1bb315-a7f3-11f0-b6c4-2a6812f5ef41.jpg",
     rating: { owl: 0, crocodile: 0 },
